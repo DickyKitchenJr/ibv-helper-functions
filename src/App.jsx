@@ -1,6 +1,6 @@
 import './App.css';
 import { bioForJson } from './components/Bio-Formatting/bioForJson';
-import { bioForListing } from './components/Bio-Formatting/bioForListing';
+import { socialMediaExtractor } from './components/SocialMedia-Formatting/socialMediaExtractor';
 import { Authors } from './assets/Authors';
 
 // create a copy of Authors to modify that can be compared with the original Authors list if needed
@@ -12,6 +12,7 @@ const authorListings = [];
 const processAuthors = (listOfAuthors) => {
     while(listOfAuthors.length > 0){
       let currentAuthor = listOfAuthors[0];
+      socialMediaExtractor(currentAuthor);
       currentAuthor.bio = bioForJson(currentAuthor["bio"]);
       authorListings.push(currentAuthor);  
       listOfAuthors.shift();
@@ -24,10 +25,11 @@ processAuthors(authorsToProcess);
 
 function App() {
 
+
+
   return (
     <>
       <h1>Testing Area</h1>
-      {/* converting author array bio into single string */}
       <h2>Listings</h2>
       {authorListings.map((author) => {return (
         <>
@@ -46,61 +48,73 @@ function App() {
                 <br />
               </>
             ) : null}
-            umbrellaGenre: [&#34;{author.umbrellaGenre}&#34;],
+            umbrellaGenre: [
+            {author.umbrellaGenre.map((each, index, array) => (
+              <>
+                &#34;{each}&#34;{index === array.length - 1 ? "" : ","}
+              </>
+            ))}
+            ],
             <br />
-            subGenre: [&#34;{author.subGenre}&#34;],
+            subGenre: [
+            {author.subGenre.map((each, index, array) => (
+              <>
+                &#34;{each}&#34;{index === array.length - 1 ? "" : ","}
+              </>
+            ))}
+            ],
             <br />
-            {author.socialMedia.instagram ? (
+            {author.instagram ? (
               <>
-                instagram: &#34;{author.socialMedia.instagram}&#34;,
+                instagram: &#34;{author.instagram}&#34;,
                 <br />
               </>
             ) : null}
-            {author.socialMedia.facebook ? (
+            {author.facebook ? (
               <>
-                facebook: &#34;{author.socialMedia.facebook}&#34;,
+                facebook: &#34;{author.facebook}&#34;,
                 <br />
               </>
             ) : null}
-            {author.socialMedia.twitter ? (
+            {author.twitter ? (
               <>
-                twitter: &#34;{author.socialMedia.twitter}&#34;,
+                twitter: &#34;{author.twitter}&#34;,
                 <br />
               </>
             ) : null}
-            {author.socialMedia.tiktok ? (
+            {author.tiktok ? (
               <>
-                tiktok: &#34;{author.socialMedia.tiktok}&#34;,
+                tiktok: &#34;{author.tiktok}&#34;,
                 <br />
               </>
             ) : null}
-            {author.socialMedia.goodreads ? (
+            {author.goodreads ? (
               <>
-                goodreads: &#34;{author.socialMedia.goodreads}&#34;,
+                goodreads: &#34;{author.goodreads}&#34;,
                 <br />
               </>
             ) : null}
-            {author.socialMedia.mastodon ? (
+            {author.mastodon ? (
               <>
-                mastodon: &#34;{author.socialMedia.mastodon}&#34;,
+                mastodon: &#34;{author.mastodon}&#34;,
                 <br />
               </>
             ) : null}
-            {author.socialMedia.amazonBio ? (
+            {author.amazonBio ? (
               <>
-                amazonBio: &#34;{author.socialMedia.amazonBio}&#34;,
+                amazonBio: &#34;{author.amazonBio}&#34;,
                 <br />
               </>
             ) : null}
-            {author.socialMedia.threads ? (
+            {author.threads ? (
               <>
-                threads: &#34;{author.socialMedia.threads}&#34;,
+                threads: &#34;{author.threads}&#34;,
                 <br />
               </>
             ) : null}
-            {author.socialMedia.bookbub ? (
+            {author.bookbub ? (
               <>
-                bookbub: &#34;{author.socialMedia.bookbub}&#34;,
+                bookbub: &#34;{author.bookbub}&#34;,
                 <br />
               </>
             ) : null}
