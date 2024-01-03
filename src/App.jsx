@@ -2,13 +2,14 @@ import './App.css';
 import { bioForJson } from './components/Bio-Formatting/bioForJson';
 import { socialMediaExtractor } from './components/SocialMedia-Formatting/socialMediaExtractor';
 import { Authors } from './assets/Authors';
+import { useEffect } from 'react';
 
 // create a copy of Authors to modify that can be compared with the original Authors list if needed
 let authorsToProcess = Authors
 
 const authorListings = [];
 
-// create a function that goes through the entire authorsToProcess list and updates the bio
+// create a function that goes through the entire authorsToProcess list and updates the bio and extracts everything from socialMedia
 const processAuthors = (listOfAuthors) => {
     while(listOfAuthors.length > 0){
       let currentAuthor = listOfAuthors[0];
@@ -25,105 +26,140 @@ processAuthors(authorsToProcess);
 
 function App() {
 
+  // TODO: Comment out entire useEffect once authors are loaded onto the database (or just erase it)
+  // loading authors currently listed on the front-end onto the database
+  useEffect(() => {
+    async function sendPostRequest(data) {
+      const apiAddress = import.meta.env.VITE_API_ADDRESS;
 
+      try {
+        const response = await fetch(apiAddress, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
+        });
+
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+
+        const responseData = await response.json();
+        console.log("Post request successful:", responseData);
+      } catch (error) {
+        console.error("Error sending post request:", error);
+      }
+    }
+
+    async function sendArraySequentially() {
+      for (const item of authorListings) {
+        await sendPostRequest(item);
+      }
+    }
+    // Trigger the array processing when the component mounts
+    sendArraySequentially();
+  }, []);
 
   return (
     <>
       <h1>Testing Area</h1>
       <h2>Listings</h2>
-      {authorListings.map((author) => {return (
-        <>
-          <p>
-            &#123;
-            <br />
-            firstName: &#34;{author.firstName}&#34;,
-            <br />
-            lastName: &#34;{author.lastName}&#34;,
-            <br />
-            email: &#34;{author.email}&#34;,
-            <br />
-            {author.website ? (
-              <>
-                website &#34;{author.website}&#34;,
-                <br />
-              </>
-            ) : null}
-            umbrellaGenre: [
-            {author.umbrellaGenre.map((each, index, array) => (
-              <>
-                &#34;{each}&#34;{index === array.length - 1 ? "" : ","}
-              </>
-            ))}
-            ],
-            <br />
-            subGenre: [
-            {author.subGenre.map((each, index, array) => (
-              <>
-                &#34;{each}&#34;{index === array.length - 1 ? "" : ","}
-              </>
-            ))}
-            ],
-            <br />
-            {author.instagram ? (
-              <>
-                instagram: &#34;{author.instagram}&#34;,
-                <br />
-              </>
-            ) : null}
-            {author.facebook ? (
-              <>
-                facebook: &#34;{author.facebook}&#34;,
-                <br />
-              </>
-            ) : null}
-            {author.twitter ? (
-              <>
-                twitter: &#34;{author.twitter}&#34;,
-                <br />
-              </>
-            ) : null}
-            {author.tiktok ? (
-              <>
-                tiktok: &#34;{author.tiktok}&#34;,
-                <br />
-              </>
-            ) : null}
-            {author.goodreads ? (
-              <>
-                goodreads: &#34;{author.goodreads}&#34;,
-                <br />
-              </>
-            ) : null}
-            {author.mastodon ? (
-              <>
-                mastodon: &#34;{author.mastodon}&#34;,
-                <br />
-              </>
-            ) : null}
-            {author.amazonBio ? (
-              <>
-                amazonBio: &#34;{author.amazonBio}&#34;,
-                <br />
-              </>
-            ) : null}
-            {author.threads ? (
-              <>
-                threads: &#34;{author.threads}&#34;,
-                <br />
-              </>
-            ) : null}
-            {author.bookbub ? (
-              <>
-                bookbub: &#34;{author.bookbub}&#34;,
-                <br />
-              </>
-            ) : null}
-            bio: &#34;{author.bio}&#34;
-            <br />
-            &#125;,
-          </p>
-        </>
-      );})}
+      {authorListings.map((author) => {
+        return (
+          <>
+            <p>
+              &#123;
+              <br />
+              firstName: &#34;{author.firstName}&#34;,
+              <br />
+              lastName: &#34;{author.lastName}&#34;,
+              <br />
+              email: &#34;{author.email}&#34;,
+              <br />
+              {author.website ? (
+                <>
+                  website &#34;{author.website}&#34;,
+                  <br />
+                </>
+              ) : null}
+              umbrellaGenre: [
+              {author.umbrellaGenre.map((each, index, array) => (
+                <>
+                  &#34;{each}&#34;{index === array.length - 1 ? "" : ","}
+                </>
+              ))}
+              ],
+              <br />
+              subGenre: [
+              {author.subGenre.map((each, index, array) => (
+                <>
+                  &#34;{each}&#34;{index === array.length - 1 ? "" : ","}
+                </>
+              ))}
+              ],
+              <br />
+              {author.instagram ? (
+                <>
+                  instagram: &#34;{author.instagram}&#34;,
+                  <br />
+                </>
+              ) : null}
+              {author.facebook ? (
+                <>
+                  facebook: &#34;{author.facebook}&#34;,
+                  <br />
+                </>
+              ) : null}
+              {author.twitter ? (
+                <>
+                  twitter: &#34;{author.twitter}&#34;,
+                  <br />
+                </>
+              ) : null}
+              {author.tiktok ? (
+                <>
+                  tiktok: &#34;{author.tiktok}&#34;,
+                  <br />
+                </>
+              ) : null}
+              {author.goodreads ? (
+                <>
+                  goodreads: &#34;{author.goodreads}&#34;,
+                  <br />
+                </>
+              ) : null}
+              {author.mastodon ? (
+                <>
+                  mastodon: &#34;{author.mastodon}&#34;,
+                  <br />
+                </>
+              ) : null}
+              {author.amazonBio ? (
+                <>
+                  amazonBio: &#34;{author.amazonBio}&#34;,
+                  <br />
+                </>
+              ) : null}
+              {author.threads ? (
+                <>
+                  threads: &#34;{author.threads}&#34;,
+                  <br />
+                </>
+              ) : null}
+              {author.bookbub ? (
+                <>
+                  bookbub: &#34;{author.bookbub}&#34;,
+                  <br />
+                </>
+              ) : null}
+              bio: &#34;{author.bio}&#34;
+              <br />
+              &#125;,
+            </p>
+          </>
+        );
+      })}
     </>
   );
 }
