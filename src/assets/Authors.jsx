@@ -2,6 +2,7 @@ export const Authors = [
   {
     firstName: "T M",
     lastName: "Rowe",
+    email: "toni-maree@hotmail.com",
     website: "http://www.tmrowe.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/tonimaree.rowe/",
@@ -12,24 +13,12 @@ export const Authors = [
     bio: [
       `In the time BC (Before Children) Toni-maree was a fair to middling archaeologist and now she is a fair to middling writer who loves to write about the past often with a fantasy twist. Her love of storytelling, myths, legends and fantasy all play a part in her novels – ‘The Adventures of Sarah Tremayne’. When she is not writing you can find her volunteering in the archaeology department of the Auckland Museum or with the New Zealand Archaeological Association as part of their Archaeology Week events. Her other passions include beachcombing and long dog walks in addition to her side hustle of creating art from her beachcombed finds…oh and then there is the whole mother and wife shenanigans!`,
     ],
-  },
-  {
-    firstName: "D.E.",
-    lastName: "Bartley",
-    website: "http://www.debartley.com/",
-    socialMedia: {
-      facebook: "http://www.facebook.com/debartleywriter",
-      instagram: "http://www.instagram.com/debartleywriter",
-    },
-    umbrellaGenre: ["romance"],
-    subGenre: ["Dark Romance", "Supernatural", "Reverse Harem"],
-    bio: [
-      `D.E.Bartley spent her life writing stories in notebooks, until one day she decided to finally publish her first book "Rogue". Since then there has been no stopping her and she has never been happier.`,
-    ],
+    isVerified: true,
   },
   {
     firstName: "Kimberly",
     lastName: "Ann",
+    email: "kimberlyannromance@gmail.com",
     website: "https://www.kimberlyannauthor.com/",
     socialMedia: {
       facebook: "https://www.facebook.com/KimberlyAnnAuth/",
@@ -42,10 +31,12 @@ export const Authors = [
       `Kimberly Ann lives in BC, Canada with her husband, two children and ridiculously cute German Shepherd. When she’s not dreaming of stories, she homeschools her two children as they explore the world together, reads anything she can get her hands on, and drinks a lot of coffee.`,
       `Growing up with her head lost in a book, it was no surprise when she picked up a pen, or her laptop, to write her own. Kimberly Ann’s stories are based on the world around her as she brings her imagination to life with stories of small towns, swoon-worthy men, and the women that keep them on their toes.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Lily",
     lastName: "Lawson",
+    email: "lilylawsonwrites@gmail.com",
     website: "https://www.lilyswritinglife.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/poeticrainbow9/",
@@ -57,25 +48,12 @@ export const Authors = [
       `Lily Lawson is a poet, children’s and short story writer living in the UK. In addition to her books, she has published poetry, short stories, and creative non-fiction in anthologies and online.`,
       `Find out about Lily and read more of her work on her website: lilyswritinglife.com.  Subscribers to her newsletter, Life with Lily, are the first to hear all her writing news.`,
     ],
-  },
-  {
-    firstName: "Claudia",
-    lastName: "Klein",
-    website: "",
-    socialMedia: {
-      instagram: "https://www.instagram.com/claudiakleinauthor/",
-      facebook: "https://www.facebook.com/claudiakleinauthor",
-      tiktok: "https://www.tiktok.com/@claudiakleinauthor",
-    },
-    umbrellaGenre: ["fantasy"],
-    subGenre: ["Epic Fantasy"],
-    bio: [
-      `Claudia Klein began writing as soon as she could spell. She began her first full length fantasy novel in high school soon after reading The Lord of the Rings for the first time for British Literature class. She's been writing fantasy ever since. Though she didn't study writing in college, she founded a women's writing club for the women of her university. Soon after college she was introduced to the Indie author world and knew it was for her. She's been publishing her books ever since.`,
-    ],
+    isVerified: true,
   },
   {
     firstName: "M.D.",
     lastName: "LaBelle",
+    email: "m.d.labelle0@gmail.com",
     website: "https://www.mdlabelle.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/m.d.labelle/",
@@ -101,15 +79,19 @@ export const Authors = [
     bio: [
       `M.D. LaBelle is an international award-winning, bestselling multi genre author from Michigan.  She lives in Mount Pleasant, Michigan with 4 of her 6 children and her loving husband.  While she spends most of her time writing, she is also a violinist and has a degree in Art from Central Michigan University.  At the age of 12, she won the Young Author's award for a horror story and now after picking up her pen again, she has won two international competitions in just a few months' time of each other.  Now after publishing 43 books, she not only has her own bookstore, and website but has her works in over 200 paid web novel platforms and on most online bookstores.  Readers often say that while reading her books, "they feel like they are in a movie" because it is so descriptive.  While another reader has even said that they prefer reading her novels to watching Netflix.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Stephanie M.",
     lastName: "Matthews",
+    email: "stephanie.matthews@msn.com",
     website: "https://stephaniemmatthews.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/StephanieM.Matthews/",
       facebook: "https://www.facebook.com/StephanieMMatthews/",
       twitter: "https://twitter.com/@smm_author/",
+      amazonBio: "https://www.amazon.ca/stores/author/B075JP563N",
+      bookbub: "https://www.bookbub.com/profile/stephanie-m-matthews",
     },
     umbrellaGenre: ["thriller", "horror"],
     subGenre: ["Supernatural"],
@@ -118,6 +100,7 @@ export const Authors = [
       `Stephanie’s love of writing came at an early age, drafting her first “real story” in Grade 2. This love of writing has continued throughout her life, and she’s found a home in telling thriller stories that challenge people to see the world with different eyes.`,
       `When not writing, or working, Stephanie enjoys training for obstacle course races, playing hockey badly, and fueling her passion for Ancient Rome.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Julie",
@@ -146,6 +129,7 @@ export const Authors = [
   {
     firstName: "Angela",
     lastName: "Cairns",
+    email: "angelacairnsauthor@gmail.com",
     website: "https://www.angelacairnsauthor.co.uk/",
     socialMedia: {
       facebook: "https://www.facebook.com/angelacairnsauthor",
@@ -164,6 +148,7 @@ export const Authors = [
       `Angela`,
       `Author, Writing Coach, Broadcaster, Physiotherapist, Holistic Therapist, Wife, Mum, Owned by Gordon Setters, Believer in Better`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Nannette",
@@ -195,6 +180,7 @@ export const Authors = [
   {
     firstName: "Laura",
     lastName: "Lyndhurst",
+    email: "lyndhurstlaura505@gmail.com",
     website: "",
     socialMedia: {
       instagram: "https://www.instagram.com/lyndhurstlaura/",
@@ -222,6 +208,7 @@ export const Authors = [
   {
     firstName: "Ian",
     lastName: "Hornett",
+    email: "Ianhornettofficial@gmail.com",
     website: "https://ianhornett.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/ianhornett/",
@@ -237,6 +224,7 @@ export const Authors = [
   {
     firstName: "Marco",
     lastName: "Marek",
+    email: "marcomarek77@gmail.com",
     website: "https://marcomarek77.wixsite.com/marcomarek",
     socialMedia: {
       instagram: "https://www.instagram.com/marcomarekauthor/",
@@ -248,10 +236,12 @@ export const Authors = [
     bio: [
       `Marco Marek is an award winning author from Italy. He always had a fervid imagination and a passion for fantasy stories, medieval magicians, ancient history, and unexplained mysteries. While he was visiting a castle in Eastern Europe, he had the idea of writing Hyperearth. He wrote five books and a short story. Apart from writing, Marco is also a painter and photographer, he likes digital artwork on Photoshop. He loves traveling when he has some free time.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Carla",
     lastName: "Reighard",
+    email: "CarlasBooks88@yahoo.com",
     website: "https://carlasbooks.weebly.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/carlareighard/",
@@ -268,10 +258,12 @@ export const Authors = [
       `Carla is a Colorado native where she currently lives with her husband. Imagination was a loyal childhood companion – a story always brewed inside her head. Until the publication of Elle’s Magical Shoes, the stories remained private.`,
       `Now Carla shares her wild imagination with the world as she travels in time, swims with the merfolk, flies over the island of the fae, delves into Viking myths, enters outer space, or invents a new perspective to familiar fairy tales. She hopes to teach young and old that age shouldn’t limit the ability to dream or to enjoy life.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "C A",
     lastName: "Deegan",
+    email: "thecracklocksaga@outlook.com",
     website: "https://www.thecracklocksaga.com/",
     socialMedia: {
       twitter: "https://twitter.com/CracklockSaga",
@@ -284,6 +276,7 @@ export const Authors = [
       `I live in the East Midlands, right in the centre of the UK, and when I'm not writing or working, I'm with the family or walking the dog in the local woodlands seeking those ever-elusive Fae.  Or sitting, pint in hand, with the good friends I grew up with. Some are hidden in the books; quite a few characters are based on the people I know and love.`,
       `And so, to the Cracklocks… "The Cracklock Saga" series of books came about from reading some pretty awful fairy books to my daughter over the years – she's in her teens now and has (with more than a little relief, I have to say) left those behind.  But as I read those books with gritted teeth, I always wondered what would happen if someone didn't like fairies, what they would do about it, and could anybody stop them? This idea grew, and the Cracklocks were born.  I liked the idea of people who hated the Fae and everything they stood for.  And that world just keeps on growing.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Ann",
@@ -329,6 +322,7 @@ export const Authors = [
   {
     firstName: "Charlene",
     lastName: "Mattson",
+    email: "shaimatt0@gmail.com",
     website: "",
     socialMedia: {
       facebook: "https://www.facebook.com/TheFairyTaleCaseFiles",
@@ -342,6 +336,7 @@ export const Authors = [
   {
     firstName: "Terry Ann",
     lastName: "Taylor",
+    email: "terry@ttaylor.me",
     website: "https://www.ttaylor.me/",
     socialMedia: {
       instagram: "https://www.instagram.com/terryanntaylor_regency/",
@@ -352,10 +347,12 @@ export const Authors = [
       `Historic Storyteller - Home of the feisty Olivia Featherstone — Regency Adventures`,
       `Writing stories with strong-willed and courageous heroines`,
     ],
+    isVerified: true,
   },
   {
     firstName: "M.L.",
     lastName: "Eaden",
+    email: "douglasillusions@gmail.com",
     website: "https://mleaden.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/m.l.eaden/",
@@ -367,10 +364,12 @@ export const Authors = [
     bio: [
       `M.L. Eaden works by day in the tech industry, but at night, she reads books, writes stories, throws axes, and is an avid gamer with a current addiction to Azul. Originally from the sunflower state, she migrated to one with a lone star—and more sun. She tries desperately to keep up with two adorable cattle dogs that still act like they are five instead of the seniors their vet says they are.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Katrina",
     lastName: "Goforth",
+    email: "contact@authorkatrinagoforth.com",
     website: "http://authorkatrinagoforth.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/katrinagoforthwrites/",
@@ -381,10 +380,12 @@ export const Authors = [
     bio: [
       `Katrina Goforth is the author of debut middle grade adventure Gate of Rose and Vine, Book One in the Beyond the Gate Series. Book Two, Trail of Sand and Stone is scheduled to release Fall 2023.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Vicky",
     lastName: "Peplow",
+    email: "vicky.peplow1978@gmail.com",
     website: "https://vickypeplow1978.wixsite.com/vapbooks",
     socialMedia: {
       instagram: "https://www.instagram.com/vickypeplow/",
@@ -399,10 +400,12 @@ export const Authors = [
       `Vicky Peplow was born and bred in an old coal mining village in the North-east of England. Her love for her roots has inspired her to write books that capture the essence of her hometown. She moved to Virginia, USA, to be with her soul mate, and it was there that she discovered her passion for writing. In just four years, she has made a name for herself in the literary world and is now a rising star to watch out for.`,
       `Vicky's primary interests are graphic design, reading, and sports. She has a keen eye for design and has used her talent to create stunning book covers that perfectly capture the essence of her stories. Her love for reading has helped her develop a unique writing style that is both captivating and engaging. She is also a sports enthusiast and loves nothing more than watching her favorite teams play. Despite being new to the writing scene, Vicky has already achieved a lot. Her books have received critical acclaim, and readers have fallen in love with her relatable characters and heartwarming stories. Her writing style is fresh and unique, and she has quickly become a favorite among readers of all ages. Apart from writing, Vicky has a great fondness for animals of all shapes and sizes. She is a proud owner of a ten-year-old long-haired dachshund, Sir Milo, and a cat named Leo.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Amanda",
     lastName: "Sheridan",
+    email: "amandasheridan315@gmail.com",
     website: "",
     socialMedia: {
       instagram: "https://www.instagram.com/amandasheridanauthor/",
@@ -427,6 +430,7 @@ Rapid Eye Movement is my first novel and I assumed it was a standalone until the
   {
     firstName: "H. M.",
     lastName: "Mills",
+    email: "h.m.mills.pdfa@gmail.com",
     website: "https://hmmillsbooks.wixsite.com/hmmills",
     socialMedia: {
       instagram: "https://www.instagram.com/h.m.mills_author/",
@@ -442,45 +446,12 @@ Rapid Eye Movement is my first novel and I assumed it was a standalone until the
       `Award winning author & lover of Paranormal Dark Fantasy Romance & an avid reader, living in Tasmania Australia. 
 Currently working on Book 3 of The Mercy Aymes Series & edits on two standalones.`,
     ],
-  },
-  {
-    firstName: "Marcia",
-    lastName: "Clayton",
-    email: "marciaclayton974@gmail.com",
-    website: "https://marciaclayton.co.uk/",
-    socialMedia: {
-      instagram: "https://www.instagram.com/marciaclayton97/",
-      twitter: "https://twitter.com/MarciaC89111861",
-      facebook: "https://www.facebook.com/marciaclaytonauthor",
-      amazonBio:
-        "https://www.amazon.com/stores/Marcia-Clayton/author/B01A305MI6",
-      bookbub: "https://partners.bookbub.com/authors/7275491/edit",
-    },
-    umbrellaGenre: ["romance"],
-    subGenre: ["Historical Fiction"],
-    bio: [
-      `Marcia Clayton is the author of four books in The Hartford Manor Series, a heart-warming family saga, stretching from the Regency period to Victorian times. A fifth book is to be released later in 2023.`,
-      `Marcia was born in North Devon, a rural and picturesque area in the far South West of England. When she left school Marcia worked in a bank for several years until she married her husband, Bryan, and then stayed at home for a few years to take care of her three sons, Stuart, Paul and David. As the children grew older, Marcia worked as a Marie Curie nurse caring for the terminally ill, and later for the local authority managing school transport.`,
-      `Now a grandmother, Marcia enjoys spending time with her family and friends. She’s a keen researcher of family history, and it was this hobby that inspired some of the characters in her books. A keen gardener, Marcia grows many of her own vegetables. She is also an avid reader and enjoys historical fiction, romance, and crime books.`,
-    ],
-  },
-  {
-    firstName: "Arlene",
-    lastName: "Lomazoff-Marron",
-    website: "http://www.arlenelomazoffmarron.com/",
-    socialMedia: {
-      instagram: "http://www.instagram.com/marronal",
-      twitter: "http://www.twitter.com/marron_arlene",
-    },
-    umbrellaGenre: ["drama"],
-    subGenre: ["Contemporary Fiction"],
-    bio: [
-      `In December 2019, about a week before I retired from a 40+ year career in healthcare, a coworker commented that I should do something from my bucket list. I immediately replied that I would write a novel. I hadn't thought about writing since my adolescence. I published my first book in July 2020 and my second in April 2021. I have two works in progress.`,
-    ],
+    isVerified: true,
   },
   {
     firstName: "Bruce",
     lastName: "Spydar",
+    email: "brucespydar@gmail.com",
     website: "http://www.brucespydar.wordpress.com/",
     socialMedia: {
       instagram: "http://www.instagram.com/brucespydar",
@@ -492,10 +463,12 @@ Currently working on Book 3 of The Mercy Aymes Series & edits on two standalones
       `For the last few years, Bruce has thrown himself into writing.  Perhaps it’s a last-ditch attempt to harness his creativity before his brain turns to mush.  On many an afternoon he can be spotted gazing out of an upstairs window of his house near Cambridge, searching for inspiration.`,
       `Bruce describes himself as writing with a kind heart and a naughty mind.  Personal experience has taught him that everyday life is rather full of struggles, and that happiness and laughter are too often in short supply.  It’s why he now chooses to focus his creativity towards sharing his humour and positivity.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "A.S.",
     lastName: "Urban",
+    email: "asurbanbooks@gmail.com",
     website: "https://as-urban.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/asurbanbooks/",
@@ -507,6 +480,7 @@ Currently working on Book 3 of The Mercy Aymes Series & edits on two standalones
       `Her mother had the difficult task of telling five-year old A.S. she was blind as bat. Astronauts don't wear glasses. The allure of space and all the adventures to be had there still tickle her imagination. Pair her love of all things outer space with her love of the courtship romance novels and you get  the Corvus Squadron Universe.`,
       `A.S. lives in the Northwest with her husband, twin girls, and the orange tabby Frank.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Carrie",
@@ -527,6 +501,7 @@ Currently working on Book 3 of The Mercy Aymes Series & edits on two standalones
       `Carrie Scharf has a skincare business and is the author of Carrie's Herbal Infused Skincare Cookbook.  Carrie's experience making skincare and experimenting with ingredients inspired her to write her books.`,
       `Carrie has degrees from Mayland Community College and the University of North Carolina at Asheville.  Carrie lives and works out of her home in West Virginia.  She homeschools her two boys and plays clarinet in the Charleston Metro Band`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Helen",
@@ -548,22 +523,6 @@ Currently working on Book 3 of The Mercy Aymes Series & edits on two standalones
       `Having graduated from the University of Southampton with a Degree in Politics and International Relations, she remains an active member of their alumni.`,
     ],
     isVerified: true,
-  },
-  {
-    firstName: "Lady",
-    lastName: "Jaguar",
-    website: "http://www.jaynelockwood.com/",
-    socialMedia: {
-      instagram: "https://www.instagram.com/ladyjaguarwrites/",
-      facebook: "https://www.facebook.com/ladyjaguar",
-    },
-    umbrellaGenre: ["romance", "drama"],
-    subGenre: ["LGBTQ+"],
-    bio: [
-      `Lady Jaguar is the pen name for Jayne Lockwood, who has been writing for over twenty years. Originally a traditionally published author (Savannah Smythe) with Black Lace (Virgin Books) she has worked as a ghostwriter before turning her attention to independent publishing. So far she has written around fifteen novels.`,
-      `Born and based in the UK, she has also lived in New Jersey, where a lot of her books are based. Now she writes in a rural location, not too far from London, when not being bullied by her husky and house panther. As well as being an author, she is also a wife, mother and strictly amateur aerialist.`,
-      `Years ago, in her village she was known as ‘the lady with the Jaguar.” The name stuck, and Lady Jaguar, author of spicy MM+ romance, was born.`,
-    ],
   },
   {
     firstName: "Nicky F",
@@ -590,6 +549,7 @@ www.nickywebber.com`,
   {
     firstName: "Jenn",
     lastName: "Howlett",
+    email: "jenn.howlett@icloud.com",
     website: "https://jennhowlett.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/jenn.howlett.author/",
@@ -601,10 +561,12 @@ www.nickywebber.com`,
       `My eyes were opened to the realm of monster-erotic fiction and after reading a fair handful of them, I thought; ‘I could do better than that!’ So, here I am, attempting to do so. I have no formal literary qualifications, just heaps of enthusiasm for telling and consuming stories.`,
       `While not writing, daydreaming, or plotting, I volunteer for a local charity shop—which helps keep me both social and grounded. I also own a Barley Dog and am a Mother-of-One.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Leon",
     lastName: "Stevens",
+    email: "linesbyleon@gmail.com",
     website: "https://www.linesbyleon.com/",
     socialMedia: {
       twitter: "https://www.twitter.com/linesbyLeon",
@@ -619,6 +581,7 @@ www.nickywebber.com`,
   {
     firstName: "E. M.",
     lastName: "Leander",
+    email: "leander@emleander.com",
     website: "http://www.emleander.com/",
     socialMedia: {
       twitter: "https://twitter.com/EMLeander1",
@@ -629,10 +592,12 @@ www.nickywebber.com`,
     bio: [
       `E. M. Leander lives in the American South with her husband, two children, and a grumpy old cat. A life-long lover of all things literary, when she’s not spending free time with family, she can be found devouring books and coffee in equal measure.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Lyonne",
     lastName: "Riley",
+    email: "lyonneriley@gmail.com",
     website: "http://lyonneriley.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/lyonnerileyauthor/",
@@ -644,35 +609,9 @@ www.nickywebber.com`,
     ],
   },
   {
-    firstName: "Susan L",
-    lastName: "Markloff",
-    website: "https://www.susanlmarkloff.com/",
-    socialMedia: {
-      instagram: "https://www.instagram.com/susanlmarkloff/",
-      facebook: "https://www.facebook.com/SusanLMarkloff/",
-    },
-    umbrellaGenre: ["fantasy"],
-    subGenre: ["YA Urban Fantasy"],
-    bio: [
-      `2022 Readers’ Favorite Award Winner for YA Urban Fantasy. Susan L Markloff is a rising YA Fantasy author. Upon devouring fantastical worlds as a child, she often spent her days playing make-believe and spinning stories with friends and family. At the age of 19, she wrote what would become the first draft of her debut novel, The Rise of the Raidin. While at Houghton College, she cultivated a love for the written word, and majored in Creative Writing. There she was encouraged by other aspiring authors and by her professors to hone her skills and write the best version of her stories. The Rise of the Raidin, book 1 of The Human-Born Era, is the first of the five book series.`,
-    ],
-  },
-  {
-    firstName: "L.C.",
-    lastName: "Ainsworth",
-    website: "",
-    socialMedia: {
-      instagram: "https://www.instagram.com/ainsworthbooks/",
-    },
-    umbrellaGenre: ["fantasy", "scifi"],
-    subGenre: ["Romance", "Mystery", "YA"],
-    bio: [
-      `L.C. Ainsworth is an author living in Wales surrounded by her loved ones while taking care of her mother's garden.`,
-    ],
-  },
-  {
     firstName: "T.A.",
     lastName: "Rosewood",
+    email: "traci@tarosewood.com",
     website: "https://www.tarosewood.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/tarosewood/",
@@ -686,10 +625,12 @@ www.nickywebber.com`,
       `Hi there. I'm Traci...AKA, T.A. Rosewood and I write relatable, emotional fiction with lovable characters and heartwarming storylines that stay with you for a long time afterwards.`,
       `Born, bred and still living in the north of Essex, England, with my very patient and supportive husband, children, and Robbie, the Westie.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Pat",
     lastName: "Backley",
+    email: "hello@patbackley.com",
     website: "https://www.patbackley.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/patbackleyauthor",
@@ -702,10 +643,12 @@ www.nickywebber.com`,
       `Pat Backley is English but emigrated to New Zealand when she was 59. She wrote and published her first book just before her 70th birthday and having discovered her passion she now intends to write till she dies!`,
       `She has lived a colourful and interesting life and her books, both fiction and non-fiction, reflect her passionate love of people and travel.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Joelle",
     lastName: "Cullen",
+    email: "joelle.cullen.author@gmail.com",
     website: "https://joellecullen.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/coffeeshopcorner/",
@@ -724,6 +667,7 @@ www.nickywebber.com`,
   {
     firstName: "Daniel",
     lastName: "Bautz",
+    email: "dbautzy@aol.com",
     website: "https://www.danielbautzctp.com/",
     socialMedia: {
       instagram: "https://instagram.com/dbautzy",
@@ -735,10 +679,12 @@ www.nickywebber.com`,
       `Daniel has done it all.`,
       `He has worked as a graphic designer, a podcast & radio host, a writer and a director of film. He is a true creative type. While he enjoyed all of these endeavors, those accomplishments pale in comparison to his true calling - the written word.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Tory",
     lastName: "Richards",
+    email: "toryrichards60@gmail.com",
     website: "http://www.toryrichards.com/",
     socialMedia: {
       twitter: "https://twitter.com/ToryRichards",
@@ -749,10 +695,12 @@ www.nickywebber.com`,
     bio: [
       `Tory Richards is an author who writes smut with a plot. She's an Amazon bestselling author in erotic romance and romantic suspense categories. Born in Maine, she's lived most of her life in Florida where she went to school, married, and raised her daughter. She's retired from Disney and spends her time with family and friends, traveling, and writing.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Alycin",
     lastName: "Hayes",
+    email: "alycinhayes@gmail.com",
     website: "https://www.echohillproductions.com/",
     socialMedia: {
       facebook: "https://www.facebook.com/alycin.hayes",
@@ -769,10 +717,12 @@ www.nickywebber.com`,
       `Alycin’s internationally popular adventure travel memoir "Amazon Hitchhiker: A Woman’s Adventures from Canada to Brazil" is the extraordinary true story of her adventures hitchhiking alone in the 1970’s from Canada to South America where she became lost paddling a leaky dugout canoe into the rivers and mystical rainforests of the wild Amazon Basin.`,
       `For more information about Alycin Hayes go to her website: https://www.echohillproductions.com/contributor-bios.html`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Jessica",
     lastName: "Piro",
+    email: "pirojessica@yahoo.com",
     website: "https://www.jessicapiro.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/xdrag0n0vax/",
@@ -783,10 +733,12 @@ www.nickywebber.com`,
     bio: [
       `Jessica is a writer in a wheelchair and has Type 1 Diabetes. She is a multi-genre author and her works cater to YA, NA, and Adults.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Maia",
     lastName: "Terry",
+    email: "maiaterryauthor@hotmail.com",
     website: "http://authormaiaterry.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/authormaiaterry/",
@@ -797,10 +749,12 @@ www.nickywebber.com`,
     bio: [
       `Maia Terry is a small town author from Kentucky where she lives with her husband and two amazing kids. Picking up writing at a young age, Maia loved creating a world that she could control, one where she could escape. Now, after a fourteen year hiatus, she builds on that love as she continues to use writing as an outlet. The real life aspects in her works hit home for so many, allowing them to connect on a deeper level with each character. Writing not only allowed herself to escape, but she wanted to create a world where she could give that reprieve to others as well.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Madeline",
     lastName: "Vaughn",
+    email: "madelinevaughnbooks@gmail.com",
     website: "https://www.madelinevaughnbooks.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/madelinevaughnbooks/",
@@ -810,10 +764,12 @@ www.nickywebber.com`,
     bio: [
       `I'm Madeline Vaughn from Kansas City, MO. I have always been passionate about writing and storytelling. I would describe myself as a curious author who loves exploring different themes and motifs. As part of my writing process, I love to immerse myself into my projects—dive headfirst into the research, production, and fine-tuning of the stories that I feel are the most worthy of telling.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Kathy",
     lastName: "Brandon",
+    email: "Kathy.Brandon.author@gmail.com",
     website: "https://kathybrandonauthor.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/kathy.brandon.author.1222/",
@@ -826,27 +782,9 @@ www.nickywebber.com`,
     ],
   },
   {
-    firstName: "J.G.",
-    lastName: "MacLeod",
-    website: "https://www.jgmacleod.com/",
-    socialMedia: {
-      twitter: "https://twitter.com/jgmacleodauthor",
-    },
-    umbrellaGenre: ["romance", "historicalfiction"],
-    subGenre: [
-      "Romantic Comedy",
-      "Romantic Suspense",
-      "Time Travel",
-      "Science Fiction Romance",
-      "Contemporary Romance",
-    ],
-    bio: [
-      `J.G. MacLeod is an award-winning, Canadian author with 8 published novels in romance sub-genres, and an experienced copy editor with 21+ years in the education sector. She edits everything from memoirs to romance novels. J.G. is active in the writing community on Twitter and enjoys supporting indie authors through beta reading and reviews. J.G. enjoys mocha frappes and cottage life with her daughters.`,
-    ],
-  },
-  {
     firstName: "Kirk",
     lastName: "Burris",
+    email: "kb@kirkburris.com",
     website: "https://www.kirkburris.com/",
     socialMedia: {
       twitter: "https://twitter.com/BurrisKirk",
@@ -864,6 +802,7 @@ www.nickywebber.com`,
   {
     firstName: "Haley Anna",
     lastName: "Marie",
+    email: "elementasseries@protonmail.com",
     website: "https://www.elementasseries.com/",
     socialMedia: {
       twitter: "https://twitter.com/ElementasSeries",
@@ -876,6 +815,7 @@ www.nickywebber.com`,
     bio: [
       `Due to childhood deafness, I would create stories to match the pictures in the books. Once my hearing was corrected, I fell in love with stories. In fourth grade, I wrote six short stories, and in fifth grade, I singlehandedly wrote and performed in a school play. The fantasy series, Elementas, is my prized possession, and I can't wait to share all of it with the world.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Felicity",
@@ -898,36 +838,27 @@ www.nickywebber.com`,
     isVerified: true,
   },
   {
-    firstName: "Brittany",
-    lastName: "Dean",
-    website: "",
-    socialMedia: {
-      instagram: "http://www.instagram.com/author_brittanydean",
-      twitter: "http://www.twitter.com/GlitzyGirlBD",
-    },
-    umbrellaGenre: ["thriller"],
-    subGenre: ["Suspense", "Psychological Thriller"],
-    bio: [
-      `Brittany Dean is a writer, volunteer, student, and voracious reader. Originally from Hillsboro, Missouri, she is currently based in Southern California with her partner and their two fur babies. She has been reading and writing since the age of three, with multiple poetry entries and a nomination for the League for Innovation International Literary Competition from St. Louis Community College in 2009. After a decade long hiatus, she is currently enrolled at Maryville University online to obtain a BA in Criminology. When not writing, you can find her sipping coffee, food tasting, or chasing those hard-to-find Funko Pops. “A Darkened Mind” is her first novel.`,
-    ],
-  },
-  {
     firstName: "Krystal",
     lastName: "Harris",
+    email: "authorkrystalharris@gmail.com",
     website: "https://theimpatientalpaca.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/maraca_the_alpaca/",
       facebook: "https://www.facebook.com/profile.php?id=100086266890541",
+      amazonBio:
+        "https://www.amazon.ca/stores/Krystal-Harris/author/B0BG3CB8Z9",
     },
     umbrellaGenre: ["childrens"],
     subGenre: ["Picture Book"],
     bio: [
       `Author Krystal Harris never imagined herself as a children’s book author. She started writing after her daughter was born, and likes to think that her daughter was and continues to be her inspiration. The most important aspect of every story Krystal writes, is that it must have a strong message and lesson to inspire her young readers—she truly believes that there is a lesson to be learned from everything.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Alivia",
     lastName: "Fleur",
+    email: "alivia@aliviafleur.com",
     website: "https://aliviafleur.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/aliviafleur_writes/",
@@ -941,6 +872,7 @@ www.nickywebber.com`,
       `Alivia is a historical romance author who moved form writing short stories to novels when her characters kept showing up with copious amounts of emotional baggage, demanding it be explored. Her love of the Victorian era, combined with a flair for creating memorable characters, led her to start writing her first historical romance series, Tales from Honeysuckle Street.`,
       `Alivia lives on a farm along way from anywhere interesting, with her husband, four dogs, and a charismatic chicken named Persephone.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Lyv",
@@ -964,11 +896,15 @@ She's currently focusing on writing her second novel.`,
   {
     firstName: "Marie",
     lastName: "Landry",
+    email: "sweetmarie.landry@gmail.com",
     website: "https://www.marielandryauthor.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/marielandry.author/",
       facebook: "https://www.facebook.com/MarieLandryAuthor/",
       tiktok: "https://www.tiktok.com/@marielandrybooks",
+      amazonBio: "https://www.amazon.com/author/marielandry",
+      threads: "https://www.threads.net/@marielandry.author",
+      bookbub: "https://www.bookbub.com/profile/marie-landry",
     },
     umbrellaGenre: ["romance"],
     subGenre: ["Contemporary Romance", "Romantic Comedy"],
@@ -976,30 +912,12 @@ She's currently focusing on writing her second novel.`,
       `Marie Landry lives and writes in a cozy apartment in Ontario, Canada, surrounded by books and Funko Pops. An avid reader from a young age, she loves getting lost in characters’ worlds, whether they’re of her own making or someone else’s. She particularly loves stories with as much of an emphasis on self-discovery and friendship as on romance...but don’t leave out the romance!`,
       `When not doing bookish things, you can often find her taking pictures, cooking, scrolling Instagram (find her at @marielandry.author), daydreaming about frolicking through the Scottish Highlands, or listening to the same music she's loved since the '90s. She's an unapologetic nerd and fangirl, and that, along with her mental health advocacy, is often woven into her books.`,
     ],
-  },
-  {
-    firstName: "Dr. Stuart",
-    lastName: "Knott",
-    website: "http://www.drkwaitingroom.com/",
-    socialMedia: {
-      instagram: "https://www.instagram.com/dr.kauthor/",
-      facebook: "https://www.facebook.com/skteamos",
-      twitter: "https://twitter.com/drk_phd?lang=en",
-    },
-    umbrellaGenre: ["thriller", "scifi", "horror"],
-    subGenre: [
-      "Body Horror",
-      "Supernatrual Horror",
-      "Horror Collections",
-      "Short Stories",
-    ],
-    bio: [
-      `A lifelong fan of videogames, comic books, and horror, action, and science-fiction films, Dr. Stuart Knott writes fiction with the intent on infusing the mundane nature of everyday life with dark comedy and macabre events.`,
-    ],
+    isVerified: true,
   },
   {
     firstName: "Matthew",
     lastName: "Romeo",
+    email: "themavenknight@gmail.com",
     website: "https://themavenknight.wixsite.com/website",
     socialMedia: {
       instagram: "https://www.instagram.com/housemontegue/",
@@ -1010,10 +928,12 @@ She's currently focusing on writing her second novel.`,
     bio: [
       `Matthew Romeo is a warrior poet. He has a healthy obsession with Star Wars, the Stormlight Archive, Cobra Kai, and Halo. When it comes to his career as a writer, he’s been inspired by the likes of Frank Herbert, Bandon Sanderson, and Pierce Brown. Pure chaos is the way of his writing style, often flitting between methodical outlining or just winging the story as he goes. Outside of being an author, he works for an international shipping company, is a loving husband, and a dad of two cats named Korra and Toph. He spends much of his free time playing Dungeons&Dragons, learning swordsmanship, practicing martial arts, and crafting entertaining stories.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "SF",
     lastName: "Benson",
+    email: "sfbenson@authorsfbenson.com",
     website: "https://www.authorsfbenson.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/authorsfbenson/",
@@ -1029,6 +949,7 @@ She's currently focusing on writing her second novel.`,
   {
     firstName: "Richard",
     lastName: "Houlden",
+    email: "rickyh92@gmail.com",
     website: "https://richardhouldenauthor.wordpress.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/richhoulden/",
@@ -1040,10 +961,12 @@ She's currently focusing on writing her second novel.`,
       `Though my career is in finance, I’ve always yearned to be an author with a passion for writing being discovered at a very young age. Of all the genres, I gravitate toward science fiction primarily because of the freedom and range of possibilities available to me.`,
       `Though I started writing with the aim of full length novels, releasing my first in June 2022, I’ve developed a great love for short stories and the little snippets of excitement I can bring with the release of The Cartographer’s Vault in June 2023.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Danielle",
     lastName: "Paquette-Harvey",
+    email: "danielleauthorph@gmail.com",
     website: "http://www.daniellephauthor.com/",
     socialMedia: {
       instagram: "http://instagram.com/daniellephauthor/",
@@ -1071,23 +994,6 @@ She's currently focusing on writing her second novel.`,
     isVerified: true,
   },
   {
-    firstName: "Stephanie",
-    lastName: "Ruth",
-    website: "http://www.stephanie-ruth.com/",
-    socialMedia: {
-      instagram: "https://www.instagram.com/ruth_writes_nz/",
-      tiktok: "https://www.tiktok.com/@_ruth_writes_nz",
-      facebook: "https://facebook.com/stephanie.ruth.nz",
-      twitter: "https://twitter.com/ruth_writes_nz",
-    },
-    umbrellaGenre: ["romance"],
-    subGenre: ["Oceania", "Multicultural", "Contemporary"],
-    bio: [
-      `Writing contemporary romance with heat, heart, and a sense of home, Stephanie Ruth is a multi-award winning indy author from Te Waipounamu, Aotearoa. She is currently working on her second New Zealand based contemporary romance series.`,
-      `If it doesn't have a happy ending in some form or other, Stephanie's not writing it!`,
-    ],
-  },
-  {
     firstName: "Lilla",
     lastName: "Nicholas-Holt",
     email: "picketybooks@gmail.com",
@@ -1111,6 +1017,7 @@ She's currently focusing on writing her second novel.`,
   {
     firstName: "Elora",
     lastName: "Canne",
+    email: "elora.canne@gmail.com",
     website: "",
     socialMedia: {
       instagram: "https://www.instagram.com/elora_canne",
@@ -1124,58 +1031,9 @@ She's currently focusing on writing her second novel.`,
     ],
   },
   {
-    firstName: "Ivy",
-    lastName: "Fairbanks",
-    website: "",
-    socialMedia: {
-      tiktok: "https://www.tiktok.com/@ivyfairbanksbooks",
-      instagram: "https://instagram.com/ivyfairbanksbooks",
-    },
-    umbrellaGenre: ["romance"],
-    subGenre: ["Romantic Comedy"],
-    bio: [
-      `Ivy Fairbanks is a shameless consumer of rom-com books, hazelnut coffee, and Hozier music. Not necessarily in that order. Living with chronic pain has made her a believer in the power of fictional escapism and happy endings. She lives in Clearwater, Florida with her husband and son. At any given moment, she is probably trapped under a sleeping tabby cat.`,
-    ],
-  },
-  {
-    firstName: "Brooke",
-    lastName: "Gilbert",
-    website: "https://www.brookegilbertauthor.com/",
-    socialMedia: {
-      tiktok: "https://www.tiktok.com/@brookegilbertauthor",
-      instagram: "http://instagram.com/enchantingbrookevoiceover",
-      twitter: "http://twitter.com/brookegauthor",
-    },
-    umbrellaGenre: ["romance", "comedy"],
-    subGenre: [
-      "OwnVoice",
-      "Romantic-Comedy",
-      "Women's Fiction",
-      "Disability Fiction",
-      "Religious Romance",
-      "Travel Romance",
-    ],
-    bio: [
-      `Brooke Gilbert is a Tennessee native, a microbiology graduate of the University of Tennessee, and a border collie mom. She is, as you may have already guessed, a hopeless romantic and a lover of Jane Austen. When she isn’t writing, she works as a jewelry designer, an audiobook narrator, and a graphic designer. Her writing features characters with autoimmune disorders, something she deals with herself. She believes it is important for these types of characters to be seen in modern literature and started writing so she could see someone like herself in literature. She is considered a medical mystery and has several rare autoimmune disorders. These disorders caused her to withdraw from Physician Assistant School, but she is happy to be pursuing her dreams of designing, creating, and writing. She thanks God for leading her heart on this new path and recites “perhaps this is the moment for which you were created” in times of doubt (Esther 4:14).`,
-      `She loves watching classic ﬁlms (thrillers and romantic comedies, too), reading, playing the ukulele, painting, dancing, Pilates, and spending time with her dog, family, and friends. One of her favorite quotes is from Flashdance: “When you give up on your dreams, you die.” She believes that if you’re waiting to pursue your dreams, stop waiting and start doing. Your time is now. And may you never stop being a hopeless romantic. Contrary to popular belief, it’s a very good quality. She’s still looking for her Mr. Darcy. Visit brookegilbertauthor.com to connect and stay updated on her latest projects.`,
-    ],
-  },
-  {
-    firstName: "J.N.",
-    lastName: "Stein",
-    website: "",
-    socialMedia: {
-      instagram: "https://www.instagram.com/j.n.stein",
-    },
-    umbrellaGenre: ["romance"],
-    subGenre: ["Shifter Romance", "Paranormal Romance"],
-    bio: [
-      `J. N. Stein is a new-to-the-scene indie author. Her stories feature strong female main characters and plots with plenty of twists. Let's not forget steamy scenes to inspire your newest fantasies. If you're looking for relatable, complex characters, shifter romances, and happily ever afters, check out her books.`,
-    ],
-  },
-  {
     firstName: "Tiffany",
     lastName: "Ryan",
+    email: "tiffanygee@hotmail.com",
     website: "https://tiffanyryanwrites.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/tiffany_ryan_author/",
@@ -1191,6 +1049,7 @@ She's currently focusing on writing her second novel.`,
   {
     firstName: "AM",
     lastName: "Scott",
+    email: "lightwavepub@gmail.com",
     website: "https://www.amscottwrites.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/amscottwrites/",
@@ -1203,10 +1062,12 @@ She's currently focusing on writing her second novel.`,
       `After twenty years as a US Air Force space operations officer, AM now operates a laptop, trading in real satellites for fictional spaceships. She writes classic-style science fiction for today’s world, full of adventure, hope and heart.`,
       `AM’s writing cave is deep in the mountains of western Montana; check out Montana, The Amazing Sleeping Man and Zoe, their slightly crazy German Shepherd, on Instagram. AM is also a volunteer leader with Team Rubicon Disaster Response.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Stacy",
     lastName: "Kristen",
+    email: "stacykristenauthor@gmail.com",
     website: "https://www.stacykristenauthor.com/",
     socialMedia: {
       instagram: "http://www.instagram.com/stacykristenauthor",
@@ -1222,6 +1083,7 @@ She's currently focusing on writing her second novel.`,
   {
     firstName: "Christopher",
     lastName: "Candy",
+    email: "christophercandy@icloud.com",
     website: "http://www.christophercandy.co.nz/",
     socialMedia: {
       instagram: "https://www.instagram.com/christophercandy.author/",
@@ -1238,6 +1100,7 @@ She's currently focusing on writing her second novel.`,
   {
     firstName: "L.",
     lastName: "Cuzidora",
+    email: "lcuzidora@gmail.com",
     website: "https://cuzidora.podia.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/l.cuzidora/",
@@ -1247,10 +1110,12 @@ She's currently focusing on writing her second novel.`,
     bio: [
       `L is a proud rat mother from Transylvania, Eastern Europe. She studied Sociology and Environmental Sciences and wishes she’d had started writing at an earlier age. Now she’s determined to make up for all the years spent jumping from one passion to another and devote herself to exploring even more flawed characters.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Anne M.",
     lastName: "Scott",
+    email: "lightwavepub@gmail.com",
     website: "https://www.amscottwrites.com/romance/",
     socialMedia: {
       instagram: "https://www.instagram.com/annemscott_author",
@@ -1263,25 +1128,12 @@ She's currently focusing on writing her second novel.`,
       `After twenty years in the US Air Force, Anne M. Scott traded her sword for a pen. Well, a laptop. She writes about strong women and men, love that grows slowly in small western towns, with suspense, action and adventure, and anything more than kisses behind closed doors.`,
       `Anne is lucky to live, hike, and ski in the Bitterroot Mountains of Montana. On the rare occasions she leaves, Anne volunteers with Team Rubicon, a veteran-led disaster response organization.`,
     ],
-  },
-  {
-    firstName: "David",
-    lastName: "Thomas",
-    website: "https://lunanovel.squarespace.com/",
-    socialMedia: {
-      instagram: "https://www.instagram.com/luna.novel/",
-    },
-    umbrellaGenre: ["scifi"],
-    subGenre: ["Grounded Sci-Fi"],
-    bio: [
-      `Born in Dublin, Ireland, I graduated with a BA (Hons) degree in English Literature in 2006.`,
-      `Since then, I’ve lived and worked in the US, Scotland and Germany.`,
-      `Currently based in England, “Luna” is my first novel and it’s a love letter to ‘grounded’ science fiction - a tale set in the not too distant future, placing ordinary people in extraordinary circumstances.`,
-    ],
+    isVerified: true,
   },
   {
     firstName: "Bonnie",
     lastName: "Callahan",
+    email: "bonniecallahanbooks@gmail.com",
     website: "https://www.bonniecallahanbooks.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/authorbonniecallahan/",
@@ -1296,6 +1148,7 @@ She's currently focusing on writing her second novel.`,
   {
     firstName: "Jessica",
     lastName: "Scachetti",
+    email: "Jscachetti1984@yahoo.com",
     website: "https://jscachetti.wixsite.com/authorsite",
     socialMedia: {
       instagram: "https://www.instagram.com/jessica_scachetti_author/",
@@ -1308,6 +1161,7 @@ She's currently focusing on writing her second novel.`,
       `Writes gritty Christian romance books. Edgier Christian love stories containing sinful characters who make or have made poor choices. Despite each books use of flawed characters, violence and profanity, each gritty representation showcases the immorality of those sinful actions and displays an overall message of redemption and salvation through Jesus Christ.`,
       `Each of my books is part of a series of interconnected standalone novels/novellas, and you can find them exclusively on Amazon.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "D.H.",
@@ -1573,11 +1427,14 @@ She's currently focusing on writing her second novel.`,
   {
     firstName: "Sara",
     lastName: "Kate",
+    email: "sarakateauthor@gmail.com",
     website: "http://www.sarakateauthor.com/",
     socialMedia: {
       instagram: "https://instagram.com/sarakateauthor",
       tiktok: "http://www.tiktok.com/@sarakateauthor",
       facebook: "https://www.facebook.com/sarakateauthor",
+      amazonBio: "https://www.amazon.com/author/sarakate",
+      bookbub: "https://www.bookbub.com/authors/sara-kate",
     },
     umbrellaGenre: ["thriller"],
     subGenre: ["Crime Fiction", "Mystery", "Psychological Thriller"],
@@ -1586,6 +1443,7 @@ She's currently focusing on writing her second novel.`,
       `Years later, she wrote her first mystery novel. She writes crime fiction mysteries and psychological thrillers in her RV.`,
       `Aside from writing, she enjoys rollerblading, photography, painting, and anything thriller/mystery related.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Caroline",
@@ -1769,32 +1627,6 @@ She's currently focusing on writing her second novel.`,
     subGenre: ["Mystery"],
     bio: [
       `Olivia Raymond was born in the small town of Greensburg, Indiana, best known for the mulberry tree growing out of its courthouse tower. Olivia's family moved to Indianapolis when she was just seven years old, but by then, the small-town life had already taken root and made its lasting impression. Olivia had several careers before becoming a successful business entrepreneur. Her various life and career adventures provided her with many experiences that help shape her stories. She now resides in a small town with her family and sweet furry companion, Mr. Ralf, where she enjoys her time as a writer and volunteer for the arts in her community.`,
-    ],
-    isVerified: true,
-  },
-  {
-    firstName: "Whitney",
-    lastName: "Cubbison",
-    email: "whitneyc2@hotmail.com",
-    website: "https://www.datingdisasters.paris/",
-    umbrellaGenre: ["romance"],
-    subGenre: ["Romcom"],
-    socialMedia: {
-      instagram: "https://www.instagram.com/whitneycubbisonwrites/",
-      facebook: "https://www.facebook.com/profile.php?id=100087468011635",
-      twitter: null,
-      tiktok: "https://www.tiktok.com/@whitneycubbisonwrites",
-      goodreads:
-        "https://www.goodreads.com/author/show/23134149.Whitney_Cubbison",
-      mastodon: null,
-      amazonBio: "https://www.amazon.com/stores/author/B0BMB8RG5D",
-      threads: null,
-      bookbub: null,
-    },
-    bio: [
-      "Whitney Cubbison is a dual American & French citizen living in Paris since 2009. She grew up in Texas and California and graduated from UCLA with a degree in French. She started her career in Communications working for high-tech PR agencies in San Francisco and eventually joined Microsoft where she worked for sixteen years, thirteen of which from the Paris office. During that time, she held various international roles that encompassed public relations, employee communications, executive speechwriting, and social media.",
-      "She earned her French citizenship in early 2022 and left Microsoft in the summer of that year to focus on completing her first novel, Will There Be Wine? The story, while fiction, is deeply inspired by Whitney’s own experiences as an ex-pat divorcée living in Paris and trying to navigate the cultural minefield of dating in a foreign country. It was released on January 16, 2023.",
-      "When she’s not writing, Whitney can be found sitting in Parisian cafés and restaurants with her friends, drinking wine.",
     ],
     isVerified: true,
   },
