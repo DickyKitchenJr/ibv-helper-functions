@@ -154,7 +154,7 @@ export const Authors = [
     firstName: "Nannette",
     lastName: "Kreitzman",
     email: "nettshorts@gmail.com",
-    website: "",
+    website: null,
     socialMedia: {
       instagram: "https://www.instagram.com/netts_shorts/",
       goodreads:
@@ -181,7 +181,7 @@ export const Authors = [
     firstName: "Laura",
     lastName: "Lyndhurst",
     email: "lyndhurstlaura505@gmail.com",
-    website: "",
+    website: null,
     socialMedia: {
       instagram: "https://www.instagram.com/lyndhurstlaura/",
       facebook: "https://www.facebook.com/lauralyndhurstauthor",
@@ -220,6 +220,7 @@ export const Authors = [
       `A former customs officer turned teacher turned retired teacher, Ian came relatively late to writing. Now he’s doing it, he really rather enjoys it, writing novels, blogs and 100-word stories. His love of reading is reflected in his novels, having written a sci-fi trilogy with a dystopian twist and a comedy spy series about an octogenarian grandmother who gets called back into the Secret Service. 
 2 books for children are also written and raring to go.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Marco",
@@ -323,7 +324,7 @@ export const Authors = [
     firstName: "Charlene",
     lastName: "Mattson",
     email: "shaimatt0@gmail.com",
-    website: "",
+    website: null,
     socialMedia: {
       facebook: "https://www.facebook.com/TheFairyTaleCaseFiles",
     },
@@ -406,7 +407,7 @@ export const Authors = [
     firstName: "Amanda",
     lastName: "Sheridan",
     email: "amandasheridan315@gmail.com",
-    website: "",
+    website: null,
     socialMedia: {
       instagram: "https://www.instagram.com/amandasheridanauthor/",
       twitter: "https://twitter.com/amandas26597105",
@@ -593,20 +594,6 @@ www.nickywebber.com`,
       `E. M. Leander lives in the American South with her husband, two children, and a grumpy old cat. A life-long lover of all things literary, when she’s not spending free time with family, she can be found devouring books and coffee in equal measure.`,
     ],
     isVerified: true,
-  },
-  {
-    firstName: "Lyonne",
-    lastName: "Riley",
-    email: "lyonneriley@gmail.com",
-    website: "http://lyonneriley.com/",
-    socialMedia: {
-      instagram: "https://www.instagram.com/lyonnerileyauthor/",
-    },
-    umbrellaGenre: ["romance", "fantasy"],
-    subGenre: ["Monster Romance"],
-    bio: [
-      `Lyonne Riley began as a traditionally-published author, but moved to independent publishing to pursue her interest in writing super-steamy monster romances. She lives in the middle of nowhere with two dogs and her spouse.`,
-    ],
   },
   {
     firstName: "T.A.",
@@ -976,6 +963,7 @@ She's currently focusing on writing her second novel.`,
     bio: [
       `Danielle Paquette-Harvey is an Award-Winning Amazon International Best Selling author of paranormal romance and steamy vampire romance fantasy. Her books include werewolves and vampires, myths and dark prophecies, magic, and witches, dragons and fairies, adventure and war, goddesses and demons. Her books have sold thousands of copies in 12 different countries worldwide and are being considered for a movie adaptation. Her books have been translated into French, and Italian. She is a self-published author living on the south shore of Montreal, Canada, with her husband, children, two cats, and an Australian Shepherd.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Marian",
@@ -1018,7 +1006,7 @@ She's currently focusing on writing her second novel.`,
     firstName: "Elora",
     lastName: "Canne",
     email: "elora.canne@gmail.com",
-    website: "",
+    website: null,
     socialMedia: {
       instagram: "https://www.instagram.com/elora_canne",
       facebook: "https://www.facebook.com/eloracanne",
@@ -1028,22 +1016,6 @@ She's currently focusing on writing her second novel.`,
     bio: [
       `Elora Canne originates from South Africa, now living in Sydney, Australia. Her memoir, En Route, outlines the travels of a gap year her and her husband took, to travel the world. EN ROUTE: The Best is Yet To Be, is available in ebook and paperback on Amazon.`,
       `~~Road trips and relationships, what could possibly go wrong?`,
-    ],
-  },
-  {
-    firstName: "Tiffany",
-    lastName: "Ryan",
-    email: "tiffanygee@hotmail.com",
-    website: "https://tiffanyryanwrites.com/",
-    socialMedia: {
-      instagram: "https://www.instagram.com/tiffany_ryan_author/",
-      facebook: "https://www.facebook.com/TiffanyRyanAuthor",
-      tiktok: "https://www.tiktok.com/@tiffanyryanwrites",
-    },
-    umbrellaGenre: ["comedy"],
-    subGenre: ["Sarcastic Humor"],
-    bio: [
-      `Tiffany currently resides in North Georgia with her husband and two children. When she's not writing, you will often find her cheering her daughter on at soccer games, listening patiently to her son regale her with stories of his wild antics, hiking and frequenting North Georgia wineries with her husband, reading anthropological thrillers, or relaxing with a good paint by numbers.`,
     ],
   },
   {
@@ -1166,6 +1138,7 @@ She's currently focusing on writing her second novel.`,
   {
     firstName: "D.H.",
     lastName: "Gibbs",
+    email: "dhgibbsauthor@gmail.com",
     website: "http://www.dhgibbs.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/dhgibbs_author/",
@@ -1176,10 +1149,12 @@ She's currently focusing on writing her second novel.`,
     bio: [
       `D.H. Gibbs is a USA Today Bestselling Author and Newsday T&T Choice finalist. She enjoys writing fantasy, contemporary romance, and children’s books. When not navigating the adventures of her kick-ass female leads, she’s a complete Starbucks and book addict who binge-watches TV series like Lucifer, Carnival Row, and Warrior. A Trinidadian native, she currently lives and creates new worlds in Japan.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Rebecca",
     lastName: "Marsh",
+    email: "authorrebeccalmarsh@gmail.com",
     website: "https://www.rebeccalmarsh.com/",
     socialMedia: {
       facebook: "https://www.facebook.com/RebeccaLynnMarsh",
@@ -1191,10 +1166,12 @@ She's currently focusing on writing her second novel.`,
       `Rebecca L. Marsh is an award winning author of women's fiction and a member of the Paulding County Writer's Guild. She grew up in the mountains of Western North Carolina and now lives in Dallas, Georgia with her husband and daughter.`,
       `When not writing, she enjoys spending time with her family (cats and dog included), watching movies, and reading a good book. Rebecca occasionally makes home-made candy and works on her scrapbooks (she is woefully behind).`,
     ],
+    isVerified: true,
   },
   {
     firstName: "A.R.",
     lastName: "Grosjean",
+    email: "a.r.grosjean@hotmail.com",
     website: "https://argrosjeanauthor.wixsite.com/home",
     socialMedia: {
       facebook: "https://www.facebook.com/argrosjeanauthorwriter",
@@ -1209,10 +1186,12 @@ She's currently focusing on writing her second novel.`,
       `Amber believes that dreams can truly come true. Don't give up.`,
       `You can also sign up for her bi-weekly newsletter for updates, events, special news, and to learn about Amber and other writers as she supports other Indie Authors at subscribepage.io/p5o9p7 where you can find free gifts for signing up!`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Beronika",
     lastName: "Keres",
+    email: "beronikakeres@gmail.com",
     website: "https://www.beronikakeres.com/",
     socialMedia: {
       facebook: "https://www.facebook.com/AuthorBeronikaKeres",
@@ -1224,28 +1203,13 @@ She's currently focusing on writing her second novel.`,
       `Beronika Keres is the Canadian author of the dark fantasy thriller series, Cracked Coffins. She decided in the second grade that she wanted to be an author and has spent her life honing her craft and pursuing her dream. She can often be found chasing plot bunnies and writing books.`,
       `When she’s not writing, she enjoys spending time with her family, or listening to some gothic rock, punk, or metal while working on her newest spike and patch-covered project.`,
     ],
-  },
-  {
-    firstName: "Havelah",
-    lastName: "McLat",
-    website: "http://havelahmclat.wixsite.com/home",
-    socialMedia: {
-      instagram: "https://www.instagram.com/havelahmclatwriter",
-    },
-    umbrellaGenre: ["romance"],
-    subGenre: [
-      "Second Chance Romance",
-      "Small Town",
-      "Clean & Wholesome Romance",
-    ],
-    bio: [
-      `Havelah McLat grew up on a small farm in rural Ohio with her family. As a kid, she spent hours drawing and then crafting short stories to go along with her illustrations. As she got older, her passion grew to write stories about the world, faith, and topics that matter the most to her. She has written several short fictions that have been featured in different anthologies. When she isn’t writing, she reads books, draws, helps with activity events in the local church and community, and spends time with her family.`,
-    ],
+    isVerified: true,
   },
   {
     firstName: "Rian F.",
     lastName: "Holes",
-    website: "",
+    email: "rianfholes@gmail.com",
+    website: null,
     socialMedia: {
       instagram: "https://www.instagram.com/rianf.holes",
       twitter: "https://twitter.com/holes_f?t=PHUcyaLvpJ7DnsZeH_40zg&s=09",
@@ -1286,6 +1250,7 @@ She's currently focusing on writing her second novel.`,
   {
     firstName: "Roy L.",
     lastName: "Pickering Jr.",
+    email: "roylpickering@gmail.com",
     website: "http://roypickering.weebly.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/avaappelsawse/",
@@ -1298,10 +1263,12 @@ She's currently focusing on writing her second novel.`,
     bio: [
       `Roy Pickering is the author of the novels Patches of Grey and Matters of Convenience, a children's book entitled The Absolutely Amazing Adventures of Ava Appelsawse, and the novella Feeding the Squirrels. He is currently at work on his third novel. Anthologies that house Roy's shorter fiction include Proverbs for the People, Role Call, The Game: Short Stories About the Life, Prose to be Read Aloud and Forever Travels. He writes the blog A Line A Day which charts his diverse interests, and maintains Roy's Book Reviews, the YouTube channel where he shares his thoughts on books along with readings of children's books.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Susanne",
     lastName: "Perry",
+    email: "susanneperryauthor@gmail.com",
     website: "https://susanneperrybooks.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/booksbysusanneperry",
@@ -1311,10 +1278,12 @@ She's currently focusing on writing her second novel.`,
     bio: [
       `Susanne Perry is the author of the City Streets series of mysteries — Runaway, Veteran and Gutter Punk—set within the street community of the Pacific Northwest. Her short story, Prep Work was included in Riversong Books Best Short Stories of 2022.  A second short story entitled Karma and Santayana, was selected in 2023. Swan Song is set in Arizona and is her fourth novel.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Jae",
     lastName: "Greyn",
+    email: "jaegreyn@gmail.com",
     website: "https://jaegreyn.com/",
     socialMedia: {
       facebook: "https://www.facebook.com/jaegreyn",
@@ -1324,6 +1293,7 @@ She's currently focusing on writing her second novel.`,
     bio: [
       `Jae Greyn is the author of the Fire Ridge Pride Series. Born in the United States, Jae is an advocate for being good humans to animals and people. A consumer of coffee, chocolate, and romances. If you have any questions, you can check out https://jaegreyn.com`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Anne",
@@ -1352,6 +1322,7 @@ She's currently focusing on writing her second novel.`,
   {
     firstName: "Brianna R.",
     lastName: "Shaffery",
+    email: "orders@brswrites.com",
     website: "http://brswrites.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/brs_writes/",
@@ -1366,10 +1337,12 @@ She's currently focusing on writing her second novel.`,
       `Aside from her love of literature, Brianna can often be found engaged in some kind of craft or whipping up one of her favorite desserts. Living happily on the East Coast, Brianna enjoys making new memories with friends and family set to a background of whatever’s playing on the radio.`,
       `Follow along on her journey by following Brianna on social media or by signing up for her newsletter at BRSwrites.com/newsletter, which includes exclusive insights, writing updates, and bonus content from her books.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "K.",
     lastName: "Iwancio",
+    email: "authorkiwancio@gmail.com",
     website: "http://www.kiwancio.com/",
     socialMedia: {
       instagram: "https://instagram.com/k.iwancio_writes",
@@ -1381,10 +1354,12 @@ She's currently focusing on writing her second novel.`,
     bio: [
       `Don’t let those cartoony covers fool you. Even though they’re full of Hallmark-y romcom goodness, finger those pages deeper to the smut within! K. Iwancio has been an interior designer, artist, teacher, and volunteer. She has visited far-off planets, been on movie sets, and even checked some things off her Bucket List. She lives in South Central Pennsylvania.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Amy",
     lastName: "Cocke",
+    email: "admin@amycocke.com",
     website: "https://www.amycocke.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/authoramycocke/",
@@ -1395,10 +1370,12 @@ She's currently focusing on writing her second novel.`,
       `Amy has always been a writer, but after years of doing “practical” and “responsible” things, she decided it was time to see one of those stories in book form.`,
       `When she’s not writing or working her day job, she’s riding her horse, reading, or occasionally doing outdoorsy things.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Steffy",
     lastName: "Smith",
+    email: "steffysmith@steffysmithbooks.com",
     website: "https://steffysmithbooks.com/",
     socialMedia: {
       instagram: "https://instagram.com/steffysmithbooks",
@@ -1410,11 +1387,13 @@ She's currently focusing on writing her second novel.`,
     bio: [
       `For years I have loved to curl up with a romance novel and escape to a different era of love. Stepping back into the ballroom during the Regency era, swept away on a journey through the Scottish Highlands or whisked off to a majestic castle in medieval England. My own fantasies have whirled around in my mind and it is in these novels I can express a story of my own and dreams of another time.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Michelle",
     lastName: "Matteson",
-    website: "",
+    email: "nightrosebud@aol.com",
+    website: null,
     socialMedia: {
       instagram: "https://www.instagram.com/thosethatglowgold/",
     },
@@ -1448,6 +1427,7 @@ She's currently focusing on writing her second novel.`,
   {
     firstName: "Caroline",
     lastName: "Corvin",
+    email: "caroline@carolinecorvin.com",
     website: "https://carolinecorvin.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/carolinecorvin/",
@@ -1460,25 +1440,12 @@ She's currently focusing on writing her second novel.`,
       `Raised under the shadow of a volcano in provincial New Zealand, she now lives on the edge of Auckland, the City of Sails with stunning beaches and good coffee (and surrounded by more volcanoes, fortunately extinct).`,
       `Caroline didn’t set out to write romance, but her characters took control the moment she let them loose on the page, reminding her that finding happy ever afters are the reason she’s one of those people who sometimes reads the last page first—just to be safe.`,
     ],
-  },
-  {
-    firstName: "Rosali",
-    lastName: "Penunuri",
-    website: "https://rosalipenunuribooks.wixsite.com/rosalipenunuribooks",
-    socialMedia: {
-      instagram: "https://www.instagram.com/rosaliwrites",
-      tiktok: "https://www.tiktok.com/@rosaliwrites",
-    },
-    umbrellaGenre: ["romance", "fantasy"],
-    subGenre: ["Young Adult", "New Adult"],
-    bio: [
-      `Rosali Penunuri grew up in Southern California with a huge family in a tiny home. She would daydream about escaping reality and have something all her own. This led to storytelling and, eventually, writing. After graduating college with a B.A. in English Literature, she moved across the country.`,
-      `She lives with her husband and daughters, their troublemaker dogs Sam and Dean, and a small cat army.`,
-    ],
+    isVerified: true,
   },
   {
     firstName: "Arleta",
     lastName: "Rae",
+    email: "araebooks@yahoo.com",
     website: "https://araebooks.wixsite.com/arletarae",
     socialMedia: {
       instagram: "http://www.instagram.com/authorarletarae",
@@ -1488,10 +1455,12 @@ She's currently focusing on writing her second novel.`,
     bio: [
       `Arleta is a New England native. She lives surrounded by beautiful rolling hills with her cat, Ubba, and her dog, Lily. Arleta's mind has always been wrapped in a wild fantasy world, whether its of her own creation or one she's reading. When she isn't writing, you can find her with a book, hiking, or with friends and a mocha latte in hand. She just received her MA in ecopsychology from Naropa University where she wrote a lengthy thesis on language and myth and nature. Her love of nature is woven into her fantasy stories.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Xyvah M.",
     lastName: "Okoye",
+    email: "xmokoye@gmail.com",
     website: "http://www.xmokoye.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/xmokoye/",
@@ -1509,6 +1478,7 @@ She's currently focusing on writing her second novel.`,
   {
     firstName: "MK",
     lastName: "Ahearn",
+    email: "Mkahearn.books@gmail.com",
     website: "https://theoriginalmk.com/",
     socialMedia: {
       instagram: "http://www.instagram.com/mkahearn.books",
@@ -1519,20 +1489,7 @@ She's currently focusing on writing her second novel.`,
     bio: [
       `MK Ahearn grew up in Massachusetts as one of three sisters. She now lives in Maryland with her fiancé and their two cats. She received her bachelor of arts in international relations and is now completing a master of professional studies in homeland security. When not writing or studying she can be found planning her next travel adventure.`,
     ],
-  },
-  {
-    firstName: "Eliza",
-    lastName: "Lane",
-    website: "",
-    socialMedia: {
-      instagram: "https://www.instagram.com/elizalanebooks/",
-      tiktok: "https://www.tiktok.com/@elizalanebooks?_t=8gVOh9EGsYM&_r=1",
-    },
-    umbrellaGenre: ["romance"],
-    subGenre: ["Contemporary"],
-    bio: [
-      `Eliza Lane lives near Kansas City, Missouri, with her husband and many pets. She became invested in her first fictional couple at the ripe age of nine, and the rest is history. Somebody to Love You is her debut novel.`,
-    ],
+    isVerified: true,
   },
   {
     firstName: "Julie",
@@ -1560,6 +1517,7 @@ She's currently focusing on writing her second novel.`,
   {
     firstName: "Milagros S.",
     lastName: "Johnson",
+    email: "milagrossjohnson@gmail.com",
     website: "https://www.milagrossjohnson.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/miljhnsn_author/",
@@ -1571,10 +1529,12 @@ She's currently focusing on writing her second novel.`,
       `She wrote the book hoping to plant a seed for the children to nurture so they can achieve financial independence and success in their adulthood.`,
       `Milagros has dedicated her career to her community, and her personal life to her loving and supportive family.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "Meadoe",
     lastName: "Hora",
+    email: "meadoehora@gmail.com",
     website: "https://www.meadoehora.com/",
     socialMedia: {
       facebook: "https://www.facebook.com/meadoehorawrites/",
@@ -1586,10 +1546,12 @@ She's currently focusing on writing her second novel.`,
     bio: [
       `Meadoe Hora is a writer, working mom, dog rescuer, and lover of beautiful words. She writes books for teens with strong female leads and classic mythology. She is the author of Ariadne’s Crown and the Furious Legacy series. In addition, her work has appeared in Chicken Soup for the Soul, Literary Mama, Sweatpants and Coffee, and other websites. You can find her at www.meadoehora.com. She lives in the US (WI) with her family, two spoiled basset hounds and a black lab who may or may not be a hellhound.`,
     ],
+    isVerified: true,
   },
   {
     firstName: "C.K.",
     lastName: "Sorens",
+    email: "cksorens@gmail.com",
     website: "http://www.cksorens.com/",
     socialMedia: {
       instagram: "https://www.instagram.com/ck_sorens/",
@@ -1599,26 +1561,12 @@ She's currently focusing on writing her second novel.`,
     bio: [
       `C.K. Sorens is the USA Today Bestselling author of Eighteen Wishes, the Trimarked Series, and her short story collection, Vision of Misfortune. She is also a writing coach at Quill and Cup with a focus on mindset, craft, and creating a sustainable career.`,
     ],
-  },
-  {
-    firstName: "Kate",
-    lastName: "Harris",
-    website: "https://www.kateharris.co.uk/",
-    socialMedia: {
-      instagram: "https://www.instagram.com/katelifecoach",
-      facebook: "https://facebook.com/kate.harris.12979",
-      twitter: "https://twitter.com/hometoyourheart",
-    },
-    umbrellaGenre: ["nonfiction"],
-    subGenre: ["Memoir", "Poetry", "Self-help", "Art"],
-    bio: [
-      `Kate is an author, artist and life coach in Devon, England. Inspired by nature, she has created a blend of memoir, poetry and paintings to reveal the essence of freedom, hope and joy within the evolution of our lives. A glimmer of sun on a dull day to light the way forward for you to fly home to your heart.`,
-      `Kate was an Occupational Therapist for many years in the mental health service, where creativity was the door to recovery for many people.`,
-    ],
+    isVerified: true,
   },
   {
     firstName: "Olivia",
     lastName: "Raymond",
+    email: "author@OliviaRaymond.com",
     website: "https://www.oliviaraymond.com/",
     socialMedia: {
       facebook: "https://www.facebook.com/authoroliviaraymond/",
@@ -1652,28 +1600,6 @@ She's currently focusing on writing her second novel.`,
       "Hi! I’m Finley. I’m an 80-year-old woman in the body of a not-so-80-years-old woman. I write contemporary romance full of love, drama, and character growth. I live in the southern Midwest with my husband, our three kids, and our cats. I spend most of my time dreaming of the next project and word-vomiting onto pages only to delete them later. ",
     ],
     isVerified: true,
-  },
-  {
-    firstName: "Nick",
-    lastName: "Snape",
-    email: "nick@nicksnape.com",
-    website: "https://www.nicksnape.com/",
-    umbrellaGenre: ["scifi"],
-    subGenre: ["Horror"],
-    socialMedia: {
-      instagram: "https://www.instagram.com/nick.snape.author/",
-      facebook: null,
-      twitter: "https://www.twitter.com/SnapeNick",
-      tiktok: null,
-      goodreads: null,
-      mastodon: null,
-      amazonBio: null,
-      threads: null,
-      bookbub: null,
-    },
-    bio: [
-      "Nick Snape has been steeped in Science Fiction and Fantasy since his friends first dragged him from his schoolwork and stuck a book under his nose. Lost to the world of imagination he became a teacher by accident though he thoroughly enjoyed developing the joy of reading and writing in his pupils. Having retired after thirty years he thought it was high time to practice what he preached.",
-    ],
   },
   {
     firstName: "Jamie",
@@ -1720,6 +1646,7 @@ She's currently focusing on writing her second novel.`,
     bio: [
       "A 20-year-old writer who writes about pop culture and unhinged women falling in love (many of whom are sapphic).",
     ],
+    isVerified: true,
   },
   {
     firstName: "S J",
@@ -1743,50 +1670,6 @@ She's currently focusing on writing her second novel.`,
       "S J Sparkle is true to his name, which was given to him when he got married. It's not a pseudonym it's a way of life! ",
       "He writes heartwarming cozy regency romance novels that are tastefully spicy, research heavy, and have just enough going on to keep you turning the page.",
       "When he's not writing he's with his wife and cats or being a sparkly presence on Threads.",
-    ],
-  },
-  {
-    firstName: "Anne",
-    lastName: "Brooke",
-    email: "annebrooke1993@gmail.com",
-    website: "http://www.annebrooke.com/",
-    umbrellaGenre: ["romance", "fantasy", "thriller", "comedy"],
-    subGenre: ["Women's Fiction", "Gay Fiction", "Paranormal Fiction"],
-    socialMedia: {
-      instagram: "https://www.instagram.com/annebrooke1993/",
-      facebook: "https://www.facebook.com/annebrookebooks/",
-      twitter: "https://twitter.com/AnneBrookeBooks",
-      tiktok: null,
-      goodreads: null,
-      mastodon: null,
-      amazonBio: null,
-      threads: "https://www.threads.net/@annebrooke1993",
-      bookbub: null,
-    },
-    bio: [
-      "Anne Brooke lives in the UK and has been writing fiction for over twenty years. In the past she has been shortlisted for the Harry Bowling Prize (for novels set in London) and longlisted for the Betty Bolingbroke-Kent Novel Award. When not writing, she enjoys gardening and Pilates, and would love to be able to dance.",
-    ],
-  },
-  {
-    firstName: "Autumn",
-    lastName: "Kaufer",
-    email: "Arkauferauthor@gmail.com",
-    website: "https://www.arkauferauthor.com/",
-    umbrellaGenre: ["romance", "fantasy"],
-    subGenre: ["Romantic Fantasy", "Paranormal Romance", "YA Fantasy"],
-    socialMedia: {
-      instagram: "https://www.instagram.com/authorarkaufer/",
-      facebook: null,
-      twitter: "https://twitter.com/AutumnK2022",
-      tiktok: "https://tiktok.com/@arkauferauthor",
-      goodreads: null,
-      mastodon: null,
-      amazonBio: null,
-      threads: null,
-      bookbub: null,
-    },
-    bio: [
-      "A.R. Kaufer has dreamed of becoming a published author for as long as she can remember. She lives in Indiana with her wonderful husband and furbabies. When she's not reading or writing, she enjoys playing video games, watching movies, and going for walks in the woods around her home. She is currently working on an eight book fantasy series, with the first book, Courting Fate, available now.",
     ],
   },
   {
