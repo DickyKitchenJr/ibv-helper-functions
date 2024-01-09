@@ -1,26 +1,27 @@
 import { Authors } from "../../assets/Authors";
 import { bioForJson } from "../Bio-Formatting/bioForJson";
 import { socialMediaExtractor } from "../SocialMedia-Formatting/socialMediaExtractor";
+// import { useEffect } from "react";
 
-// create a copy of Authors to modify that can be compared with the original Authors list if needed
-let authorsToProcess = Authors
+// // create a copy of Authors to modify that can be compared with the original Authors list if needed
+// let authorsToProcess = Authors
 
-const authorListings = [];
+// const authorListings = [];
 
-// create a function that goes through the entire authorsToProcess list and updates the bio and extracts everything from socialMedia
-const processAuthors = (listOfAuthors) => {
-    while(listOfAuthors.length > 0){
-      let currentAuthor = listOfAuthors[0];
-      socialMediaExtractor(currentAuthor);
-      currentAuthor.bio = bioForJson(currentAuthor["bio"]);
-      authorListings.push(currentAuthor);  
-      listOfAuthors.shift();
-    }
-    return authorListings;
-  }
+// // create a function that goes through the entire authorsToProcess list and updates the bio and extracts everything from socialMedia
+// const processAuthors = (listOfAuthors) => {
+//     while(listOfAuthors.length > 0){
+//       let currentAuthor = listOfAuthors[0];
+//       socialMediaExtractor(currentAuthor);
+//       currentAuthor.bio = bioForJson(currentAuthor["bio"]);
+//       authorListings.push(currentAuthor);  
+//       listOfAuthors.shift();
+//     }
+//     return authorListings;
+//   }
 
-// call processAuthors on authorsToProcess to create the list for use in App  
-processAuthors(authorsToProcess);
+// // call processAuthors on authorsToProcess to create the list for use in App  
+// processAuthors(authorsToProcess);
 
 function AuthorsToProcess() {
   // Used in loading authors currently listed on the front-end onto the database. Will it be used again? Unsure at this time.
