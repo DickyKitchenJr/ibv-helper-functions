@@ -1,70 +1,29 @@
-//setting up fetch request and populating authorsInDatabase before rendering DatabaseAuthors
-const apiAddress = import.meta.env.VITE_API_ADDRESS;
-const authorsInDatabase = [];
 
-// const fetchData = (url) => {
-//    fetch(url)
-//     console.log('fetching')
-//     .then(response => {
-//         if(!response.ok) {
-//             throw new Error(`Bad Response: ${response.status}`);
-//         }
-//         console.log('fetch successful')
-//         return response.json();
-//     })
-//     .then(data => {
-//         authorsInDatabase.push(data.authors)
-//     })
-//     .catch(error =>{
-//         console.error('Error:', error);
-//     });
-// };
-
-const fetchData = (url) => {
-  console.log("fetching");
-  return fetch(url)
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error(`Bad Response: ${response.status}`);
-      }
-      console.log("fetch successful");
-      return response.json();
-    })
-    .then((data) => {
-      authorsInDatabase.push(data.authors);
-      console.log(authorsInDatabase)
-    })
-    .catch((error) => {
-      console.error("Error:", error);
-    });
-};
-
-fetchData(apiAddress).then(()=>{return authorsInDatabase});
-
-function DatabaseAuthors() {
+function DatabaseAuthors({data}) {
 
   return (
     <>
-      <h2>Authors Currently In Database</h2>
-      <p>{authorsInDatabase[0].id}</p>
-      {authorsInDatabase.map((author) => {
+    {console.log(data)}
+      <h2>Authors Currently In Database = {data.length}</h2>
+      
+      {data.map((author) => {
         return (
           <>
             <p>
               &#123;
               <br />
-              firstName: &#34;{author.firstName}&#34;,
+              firstName: &#34;{author.dataValues.firstName}&#34;,
               <br />
-              lastName: &#34;{author.lastName}&#34;,
+              lastName: &#34;{author.dataValues.lastName}&#34;,
               <br />
-              {author.website ? (
+              {author.dataValues.website ? (
                 <>
-                  website &#34;{author.website}&#34;,
+                  website &#34;{author.dataValues.website}&#34;,
                   <br />
                 </>
               ) : null}
               umbrellaGenre: [
-              {author.umbrellaGenre.map((each, index, array) => (
+              {author.dataValues.umbrellaGenre.map((each, index, array) => (
                 <>
                   &#34;{each}&#34;{index === array.length - 1 ? "" : ","}
                 </>
@@ -72,68 +31,68 @@ function DatabaseAuthors() {
               ],
               <br />
               subGenre: [
-              {author.subGenre.map((each, index, array) => (
+              {author.dataValues.subGenre.map((each, index, array) => (
                 <>
                   &#34;{each}&#34;{index === array.length - 1 ? "" : ","}
                 </>
               ))}
               ],
               <br />
-              {author.instagram ? (
+              {author.dataValues.instagram ? (
                 <>
-                  instagram: &#34;{author.instagram}&#34;,
+                  instagram: &#34;{author.dataValues.instagram}&#34;,
                   <br />
                 </>
               ) : null}
-              {author.facebook ? (
+              {author.dataValues.facebook ? (
                 <>
-                  facebook: &#34;{author.facebook}&#34;,
+                  facebook: &#34;{author.dataValues.facebook}&#34;,
                   <br />
                 </>
               ) : null}
-              {author.twitter ? (
+              {author.dataValues.twitter ? (
                 <>
-                  twitter: &#34;{author.twitter}&#34;,
+                  twitter: &#34;{author.dataValues.twitter}&#34;,
                   <br />
                 </>
               ) : null}
-              {author.tiktok ? (
+              {author.dataValues.tiktok ? (
                 <>
-                  tiktok: &#34;{author.tiktok}&#34;,
+                  tiktok: &#34;{author.dataValues.tiktok}&#34;,
                   <br />
                 </>
               ) : null}
-              {author.goodreads ? (
+              {author.dataValues.goodreads ? (
                 <>
-                  goodreads: &#34;{author.goodreads}&#34;,
+                  goodreads: &#34;{author.dataValues.goodreads}&#34;,
                   <br />
                 </>
               ) : null}
-              {author.mastodon ? (
+              {author.dataValues.mastodon ? (
                 <>
-                  mastodon: &#34;{author.mastodon}&#34;,
+                  mastodon: &#34;{author.dataValues.mastodon}&#34;,
                   <br />
                 </>
               ) : null}
-              {author.amazonBio ? (
+              {author.dataValues.amazonBio ? (
                 <>
-                  amazonBio: &#34;{author.amazonBio}&#34;,
+                  amazonBio: &#34;{author.dataValues.amazonBio}&#34;,
                   <br />
                 </>
               ) : null}
-              {author.threads ? (
+              {author.dataValues.threads ? (
                 <>
-                  threads: &#34;{author.threads}&#34;,
+                  threads: &#34;{author.dataValues.threads}&#34;,
                   <br />
                 </>
               ) : null}
-              {author.bookbub ? (
+              {author.dataValues.bookbub ? (
                 <>
-                  bookbub: &#34;{author.bookbub}&#34;,
+                  bookbub: &#34;{author.dataValues.bookbub}&#34;,
                   <br />
                 </>
               ) : null}
-              bio: &#34;{author.bio}&#34;
+              bio: &#34;{author.dataValues.bio}&#34;
               <br />
               &#125;,
             </p>
