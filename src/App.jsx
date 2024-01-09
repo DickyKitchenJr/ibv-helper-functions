@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import AuthorsToProcess from './components/AuthorsToProcess/AuthorsToProcess';
+// import AuthorsToProcess from './components/AuthorsToProcess/AuthorsToProcess';
 import DatabaseAuthors from './components/DatabaseAuthors/DatabaseAuthors';
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
   return (
     <>
       <h1>Testing Area</h1>
-      {data.length === 0 ? null : <DatabaseAuthors data = {data} />}
+      {data.length === 0 ? <p>Loading...</p> : <DatabaseAuthors data = {data} />}
       {/* <AuthorsToProcess /> */}
     </>
   );
