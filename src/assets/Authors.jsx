@@ -1361,7 +1361,7 @@ export const Authors = [
     instagram: "https://www.instagram.com/lines_by_leon",
     twitter: "https://www.twitter.com/linesbyLeon",
     bio: "Leon Stevens is a multi-genre author, composer, guitarist, and artist, with a Bachelor of Music and Education. He published his first book of poetry in 2020, followed by a book of original classical guitar compositions and a short story collection of science fiction/post-apocalyptic tales. His newest publications are the sci-fi trilogy, The View from Here, and a new collection of poetry titled, A Wonder of Words.",
-    isVerified: false,
+    isVerified: true,
   },
 
   {
@@ -1508,20 +1508,6 @@ export const Authors = [
     instagram: "https://www.instagram.com/kathy.brandon.author.1222/",
     goodreads: "https://www.goodreads.com/author/show/15584103.Kathy_Brandon",
     bio: "When Kathy became an educator, it was an easy transition to spread the joy of reading to students of all ages, knowing that there was a genre and book out there for every child to delve into with enthusiasm. Opening the pages of a book is the start of a brand new adventure for children and Kathy knew she wanted to contribute to the excitement children feel when they do so, as well as, sharing her passion for community, nature and animals. When she decided to write her first book, it was important to combine reading and interactive learning through a guide for children and adults to engage as well. She has three children, three in-laws and three grandsons who all bring her immense joy, adventures and so much laughter. With her husband and four-legged companion, you will find them all on the trails as much as possible, exploring the sights, sounds, smells and touch of nature all around them.",
-    isVerified: false,
-  },
-
-  {
-    firstName: "Kirk",
-    lastName: "Burris",
-    email: "kb@kirkburris.com",
-    website: "https://www.kirkburris.com/",
-    umbrellaGenre: ["thriller"],
-    subGenre: ["Mystery"],
-    instagram: "https://www.instagram.com/kirkburrisauthor",
-    facebook: "https://www.facebook.com/KirkBurrisAuthor",
-    twitter: "https://twitter.com/BurrisKirk",
-    bio: "Multi-genre author Kirk Burris is an Amazon Best-selling author. His Book, 12 PILLS, cracked the top 100 Mystery books in 2022, landing him a space right between James Patterson and Michael Connelly. This was a huge honor as both of those authors are among his favorites.\nHaving grown up in Missouri, where he earned a B.A. in Psychology from the University of Missouri, Kirk now makes his home in South Florida and swears he doesn't miss shoveling snow and ice to free his car. A fan of Kansas City, it has become the primary backdrop to his books thus far, though they also explore Miami, Washington D.C. and his romantic favorite, Paris, France.\nA travel bug, Kirk is often abroad. He can be found snorkeling the waters of the Caribbean, walking the streets of Paris, or taking in a Broadway show in New York. At home, Kirk is a food and cooking enthusiast. He also enjoys zipping along the exhilarating tracks of major roller coasters while he plots his next adventure.",
     isVerified: false,
   },
 
@@ -1722,34 +1708,6 @@ export const Authors = [
   },
 
   {
-    firstName: "Stacy",
-    lastName: "Kristen",
-    email: "stacykristenauthor@gmail.com",
-    website: "https://www.stacykristenauthor.com/",
-    umbrellaGenre: ["romance"],
-    subGenre: ["Romantic Suspense"],
-    instagram: "http://www.instagram.com/stacykristenauthor",
-    facebook: "http://www.facebook.com/StacyKristenAuthor2",
-    tiktok: "http://tiktok.com/@stacykristenauthor",
-    bio: "Stacy Kristen is an indie author who writes spicy romance and romantic suspense novellas with HEAs for those who just want a short, steamy read. She's an avid reader of romance and enjoys baking, drinking lots of caffeine, traveling, and laughing at the squirrels in her backyard.",
-    isVerified: false,
-  },
-
-  {
-    firstName: "Christopher",
-    lastName: "Candy",
-    email: "christophercandy@icloud.com",
-    website: "http://www.christophercandy.co.nz/",
-    umbrellaGenre: ["childrens"],
-    subGenre: ["Children's Picture Books"],
-    instagram: "https://www.instagram.com/christophercandy.author/",
-    facebook: "https://www.facebook.com/authorchristophercandy",
-    twitter: "https://twitter.com/author_candy",
-    bio: "Christopher Candy. Author of the Comet the Red Bus book series. Including Around the City and Comet Goes to the Beach.\nAfter the outstanding success of his first children's picture book, Comet the Red Bus - Around the City, Author Christopher Candy has continued to write the next book in the Comet the Red Bus series. Working full-time as a Manager for Tranzit Coachlines, Christopher has many years of bus-related experience that brings his characters to life. Christopher is based in the Tararua region and enjoys spending time with his partner, farm animals and pet dog, Tupance.",
-    isVerified: false,
-  },
-
-  {
     firstName: "L.",
     lastName: "Cuzidora",
     email: "lcuzidora@gmail.com",
@@ -1759,19 +1717,6 @@ export const Authors = [
     instagram: "https://www.instagram.com/l.cuzidora/",
     bio: "L is a proud rat mother from Transylvania, Eastern Europe. She studied Sociology and Environmental Sciences and wishes she’d had started writing at an earlier age. Now she’s determined to make up for all the years spent jumping from one passion to another and devote herself to exploring even more flawed characters.",
     isVerified: true,
-  },
-
-  {
-    firstName: "Bonnie",
-    lastName: "Callahan",
-    email: "bonniecallahanbooks@gmail.com",
-    website: "https://www.bonniecallahanbooks.com/",
-    umbrellaGenre: ["romance", "fantasy", "thriller", "historicalfiction"],
-    subGenre: ["Romantic Comedy", "YA Historical Fiction", "Romantic Thriller"],
-    instagram: "https://www.instagram.com/authorbonniecallahan/",
-    tiktok: "https://www.tiktok.com/@authorbonniecallahan",
-    bio: "Bonnie was born in Tucson, Arizona, where she went on to study Classics and Italian at the University of Arizona. After seven years in Italy, she is now back in the Sonoran Desert, where she lives with her Italian study abroad sweetheart, their two kids, and a few bilingual pets. Bonnie is the author of Remy vs. Rome, a rom-com adventure novel, and Road of Stars and Flame, a YA historical fantasy. She is currently working on her first romantic thriller, based in a medieval Italian hill town and inspired by true events. Her idea of a happily ever after includes a solid serving of food, wine, and adorable animals.",
-    isVerified: false,
   },
 
   {
