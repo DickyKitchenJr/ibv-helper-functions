@@ -3,96 +3,94 @@ function DatabaseAuthors({data}) {
 
   return (
     <>
-    {console.log(data)}
       <h2>Authors Currently In Database = {data.length}</h2>
-      
       {data.map((author) => {
         return (
           <>
             <p>
               &#123;
               <br />
-              firstName: &#34;{author.dataValues.firstName}&#34;,
+              firstName: &#34;{author.firstName}&#34;,
               <br />
-              lastName: &#34;{author.dataValues.lastName}&#34;,
+              lastName: &#34;{author.lastName}&#34;,
               <br />
-              {author.dataValues.website ? (
+              {author.website ? (
                 <>
-                  website &#34;{author.dataValues.website}&#34;,
+                  website: &#34;{author.website}&#34;,
                   <br />
                 </>
               ) : null}
-              umbrellaGenre: [
-              {author.dataValues.umbrellaGenre.map((each, index, array) => (
+              umbrellaGenre: {author.umbrellaGenre}
+              {/* {author.dataValues.umbrellaGenre.map((each, index, array) => (
                 <>
                   &#34;{each}&#34;{index === array.length - 1 ? "" : ","}
                 </>
-              ))}
-              ],
+              ))} */}
+              ,
               <br />
-              subGenre: [
-              {author.dataValues.subGenre.map((each, index, array) => (
+              subGenre: {author.subGenre}
+              {/* {author.dataValues.subGenre.map((each, index, array) => (
                 <>
                   &#34;{each}&#34;{index === array.length - 1 ? "" : ","}
                 </>
-              ))}
-              ],
+              ))} */}
+              ,
               <br />
-              {author.dataValues.instagram ? (
+              {author.instagram ? (
                 <>
-                  instagram: &#34;{author.dataValues.instagram}&#34;,
+                  instagram: &#34;{author.instagram}&#34;,
                   <br />
                 </>
               ) : null}
-              {author.dataValues.facebook ? (
+              {author.facebook ? (
                 <>
-                  facebook: &#34;{author.dataValues.facebook}&#34;,
+                  facebook: &#34;{author.facebook}&#34;,
                   <br />
                 </>
               ) : null}
-              {author.dataValues.twitter ? (
+              {author.twitter ? (
                 <>
-                  twitter: &#34;{author.dataValues.twitter}&#34;,
+                  twitter: &#34;{author.twitter}&#34;,
                   <br />
                 </>
               ) : null}
-              {author.dataValues.tiktok ? (
+              {author.tiktok ? (
                 <>
-                  tiktok: &#34;{author.dataValues.tiktok}&#34;,
+                  tiktok: &#34;{author.tiktok}&#34;,
                   <br />
                 </>
               ) : null}
-              {author.dataValues.goodreads ? (
+              {author.goodreads ? (
                 <>
-                  goodreads: &#34;{author.dataValues.goodreads}&#34;,
+                  goodreads: &#34;{author.goodreads}&#34;,
                   <br />
                 </>
               ) : null}
-              {author.dataValues.mastodon ? (
+              {author.mastodon ? (
                 <>
-                  mastodon: &#34;{author.dataValues.mastodon}&#34;,
+                  mastodon: &#34;{author.mastodon}&#34;,
                   <br />
                 </>
               ) : null}
-              {author.dataValues.amazonBio ? (
+              {author.amazonBio ? (
                 <>
-                  amazonBio: &#34;{author.dataValues.amazonBio}&#34;,
+                  amazonBio: &#34;{author.amazonBio}&#34;,
                   <br />
                 </>
               ) : null}
-              {author.dataValues.threads ? (
+              {author.threads ? (
                 <>
-                  threads: &#34;{author.dataValues.threads}&#34;,
+                  threads: &#34;{author.threads}&#34;,
                   <br />
                 </>
               ) : null}
-              {author.dataValues.bookbub ? (
+              {author.bookbub ? (
                 <>
-                  bookbub: &#34;{author.dataValues.bookbub}&#34;,
+                  bookbub: &#34;{author.bookbub}&#34;,
                   <br />
                 </>
               ) : null}
-              bio: &#34;{author.dataValues.bio}&#34;
+              bio: &#34;{author.bio}&#34;,
               <br />
               &#125;,
             </p>
