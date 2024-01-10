@@ -1508,7 +1508,7 @@ export const Authors = [
     instagram: "https://www.instagram.com/kathy.brandon.author.1222/",
     goodreads: "https://www.goodreads.com/author/show/15584103.Kathy_Brandon",
     bio: "When Kathy became an educator, it was an easy transition to spread the joy of reading to students of all ages, knowing that there was a genre and book out there for every child to delve into with enthusiasm. Opening the pages of a book is the start of a brand new adventure for children and Kathy knew she wanted to contribute to the excitement children feel when they do so, as well as, sharing her passion for community, nature and animals. When she decided to write her first book, it was important to combine reading and interactive learning through a guide for children and adults to engage as well. She has three children, three in-laws and three grandsons who all bring her immense joy, adventures and so much laughter. With her husband and four-legged companion, you will find them all on the trails as much as possible, exploring the sights, sounds, smells and touch of nature all around them.",
-    isVerified: false,
+    isVerified: true,
   },
 
   {
