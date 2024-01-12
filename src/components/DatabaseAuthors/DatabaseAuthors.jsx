@@ -3,6 +3,7 @@ function DatabaseAuthors({data}) {
 
   return (
     <>
+    {console.log(JSON.parse(data[0].umbrellaGenre))}
       <h2>Authors Currently In Database = {data.length}</h2>
       {data.map((author) => {
         return (
@@ -20,13 +21,17 @@ function DatabaseAuthors({data}) {
                   <br />
                 </>
               ) : null}
+              {/* TODO: Pick which way to display the below and also apply to subGenre section */}
               umbrellaGenre: {author.umbrellaGenre}
-              {/* {author.dataValues.umbrellaGenre.map((each, index, array) => (
+              <br />
+              OR
+              umbrellaGenre: [
+              {JSON.parse(author.umbrellaGenre).map((each, index, array) => (
                 <>
                   &#34;{each}&#34;{index === array.length - 1 ? "" : ","}
                 </>
-              ))} */}
-              ,
+              ))}
+              ],
               <br />
               subGenre: {author.subGenre}
               {/* {author.dataValues.subGenre.map((each, index, array) => (
