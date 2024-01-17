@@ -1,10 +1,11 @@
 import { Authors } from "../../assets/Authors";
+import { AwaitingAuthors } from "../../assets/AwaitingAuthors";
 import { bioForJson } from "../Bio-Formatting/bioForJson";
 import { socialMediaExtractor } from "../SocialMedia-Formatting/socialMediaExtractor";
 import { useEffect } from "react";
 
 // create a copy of Authors to modify that can be compared with the original Authors list if needed
-let authorsToProcess = Authors
+let authorsToProcess = null //insert Authors or AwaitingAuthors to process
 
 const authorListings = [];
 
