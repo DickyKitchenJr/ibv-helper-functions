@@ -22,9 +22,9 @@ function DatabaseAuthors({data}) {
                 </>
               ) : null}
               {/* TODO: Pick which way to display the below and also apply to subGenre section */}
-              umbrellaGenre: {author.umbrellaGenre}
+              {/* umbrellaGenre: {author.umbrellaGenre}
               <br />
-              OR
+              OR */}
               umbrellaGenre: [
               {JSON.parse(author.umbrellaGenre).map((each, index, array) => (
                 <>
@@ -95,7 +95,7 @@ function DatabaseAuthors({data}) {
                   <br />
                 </>
               ) : null}
-              bio: &#34;{author.bio}&#34;,
+              bio: {JSON.stringify(author.bio)},
               <br />
               &#125;,
             </p>
